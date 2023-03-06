@@ -1,0 +1,17 @@
+@media (max-width: 1365px) {
+  #header {
+    display: none;
+  }
+  #responsive-header {
+    display: block;
+  }
+}
+@media (min-width: 1367px) and (max-width: 2160px) {
+  #header {
+    display: flex;
+    justify-content: center;
+    .line{
+        margin: 0px 20px;
+    }
+  }
+}
