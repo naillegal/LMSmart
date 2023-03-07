@@ -47,6 +47,7 @@
   opacity: 0;
   left: -100%;
   padding: 30px 0px;
+  display: none;
   &.active {
     visibility: visible;
     opacity: 1;
@@ -121,14 +122,14 @@
       }
     }
   }
-}
-input {
-  margin-top: 20px;
-  outline: none;
-  width: 20rem;
-  padding: 10px 20px;
-  border-radius: 5px;
-  border: none;
+  input {
+    margin-top: 20px;
+    outline: none;
+    width: 20rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+  }
 }
 #header {
   padding: 10px 0px;
@@ -301,11 +302,10 @@ input {
       width: 250px;
       font-family: inherit;
       border-radius: 5px;
-      margin-bottom: 20px;
     }
     .fa-magnifying-glass {
       position: absolute;
-      top: 40%;
+      top: 35%;
       left: 80%;
       color: #3bbca7;
     }

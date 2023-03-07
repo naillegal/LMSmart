@@ -45,6 +45,7 @@
   opacity: 0;
   left: -100%;
   padding: 30px 0px;
+  display: none;
 }
 .clickmenu.active {
   visibility: visible;
@@ -100,8 +101,7 @@
   padding: 10px 15px;
   float: right;
 }
-
-input {
+.clickmenu input {
   margin-top: 20px;
   outline: none;
   width: 20rem;
@@ -257,11 +257,10 @@ input {
   width: 250px;
   font-family: inherit;
   border-radius: 5px;
-  margin-bottom: 20px;
 }
 #header .inputbox .fa-magnifying-glass {
   position: absolute;
-  top: 40%;
+  top: 35%;
   left: 80%;
   color: #3bbca7;
 }
@@ -335,6 +334,9 @@ input {
   #responsive-header {
     display: block;
   }
+  .clickmenu {
+    display: block;
+  }
 }
 @media (min-width: 1367px) and (max-width: 2160px) {
   #header {
@@ -343,5 +345,8 @@ input {
   }
   #header .line {
     margin: 0px 20px;
+  }
+  .clickmenu {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
