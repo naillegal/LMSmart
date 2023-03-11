@@ -2,22 +2,52 @@
   #header {
     display: none;
   }
+  #experience {
+    .box {
+      span {
+        display: inline-block;
+        margin-top: 20px;
+      }
+    }
+  }
   #responsive-header {
     display: block;
   }
-  .clickmenu{
+  .clickmenu {
     display: block;
+  }
+  #feature {
+    #slider {
+      width: 90%;
+      margin: auto;
+      .wrapper {
+        .carousel {
+          img {
+            width: calc(100% / 1);
+          }
+        }
+      }
+    }
   }
 }
 @media (min-width: 1367px) and (max-width: 2160px) {
   #header {
     display: flex;
     justify-content: center;
-    .line{
-        margin: 0px 20px;
+    .line {
+      margin: 0px 20px;
     }
   }
-  .clickmenu{
+  .clickmenu {
     display: none;
+  }
+  #enroll {
+    .box {
+      .iconbox {
+        i {
+          margin-left: 190px;
+        }
+      }
+    }
   }
 }
