@@ -237,7 +237,7 @@
   display: block;
   color: #072f60;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 500;
   font-family: inherit;
   margin-top: 20px;
   padding: 0px 15px;
@@ -355,25 +355,25 @@
   padding: 10px 15px;
   cursor: pointer;
 }
-#toprated .box1, #toprated .box4, #toprated .box3, #toprated .box2 {
+#toprated .box1, #toprated #tutorials .box8, #tutorials #toprated .box8, #toprated #tutorials .box7, #tutorials #toprated .box7, #toprated #tutorials .box6, #tutorials #toprated .box6, #toprated #tutorials .box5, #tutorials #toprated .box5, #toprated .box4, #toprated .box3, #toprated .box2 {
   font-family: "Heebo", sans-serif;
   box-shadow: 0px 10px 10px rgba(102, 102, 102, 0.1725490196);
   border-radius: 5px;
   transition: 0.2s ease-in-out;
 }
-#toprated .box1:hover img, #toprated .box4:hover img, #toprated .box3:hover img, #toprated .box2:hover img {
+#toprated .box1:hover img, #toprated #tutorials .box8:hover img, #tutorials #toprated .box8:hover img, #toprated #tutorials .box7:hover img, #tutorials #toprated .box7:hover img, #toprated #tutorials .box6:hover img, #tutorials #toprated .box6:hover img, #toprated #tutorials .box5:hover img, #tutorials #toprated .box5:hover img, #toprated .box4:hover img, #toprated .box3:hover img, #toprated .box2:hover img {
   filter: brightness(80%);
 }
-#toprated .box1 img, #toprated .box4 img, #toprated .box3 img, #toprated .box2 img {
+#toprated .box1 img, #toprated #tutorials .box8 img, #tutorials #toprated .box8 img, #toprated #tutorials .box7 img, #tutorials #toprated .box7 img, #toprated #tutorials .box6 img, #tutorials #toprated .box6 img, #toprated #tutorials .box5 img, #tutorials #toprated .box5 img, #toprated .box4 img, #toprated .box3 img, #toprated .box2 img {
   padding: 20px 0px;
   transition: 0.2s ease-in-out;
 }
-#toprated .box1 .human, #toprated .box4 .human, #toprated .box3 .human, #toprated .box2 .human {
+#toprated .box1 .human, #toprated #tutorials .box8 .human, #tutorials #toprated .box8 .human, #toprated #tutorials .box7 .human, #tutorials #toprated .box7 .human, #toprated #tutorials .box6 .human, #tutorials #toprated .box6 .human, #toprated #tutorials .box5 .human, #tutorials #toprated .box5 .human, #toprated .box4 .human, #toprated .box3 .human, #toprated .box2 .human {
   border-radius: 50%;
-  width: 15%;
+  width: 11%;
   margin-left: 20px;
 }
-#toprated .box1 a, #toprated .box4 a, #toprated .box3 a, #toprated .box2 a {
+#toprated .box1 a, #toprated #tutorials .box8 a, #tutorials #toprated .box8 a, #toprated #tutorials .box7 a, #tutorials #toprated .box7 a, #toprated #tutorials .box6 a, #tutorials #toprated .box6 a, #toprated #tutorials .box5 a, #tutorials #toprated .box5 a, #toprated .box4 a, #toprated .box3 a, #toprated .box2 a {
   background-color: #f1faf9;
   color: #3bbca7;
   padding: 5px 10px;
@@ -381,40 +381,46 @@
   transition: 0.2s ease-in-out;
   border-radius: 5px;
   text-decoration: none;
+  font-weight: 500;
+  font-size: 12px;
 }
-#toprated .box1 a:hover, #toprated .box4 a:hover, #toprated .box3 a:hover, #toprated .box2 a:hover {
+#toprated .box1 a:hover, #toprated #tutorials .box8 a:hover, #tutorials #toprated .box8 a:hover, #toprated #tutorials .box7 a:hover, #tutorials #toprated .box7 a:hover, #toprated #tutorials .box6 a:hover, #tutorials #toprated .box6 a:hover, #toprated #tutorials .box5 a:hover, #tutorials #toprated .box5 a:hover, #toprated .box4 a:hover, #toprated .box3 a:hover, #toprated .box2 a:hover {
   background-color: #3bbca7;
   color: white;
 }
-#toprated .box1 .span1, #toprated .box4 .span1, #toprated .box3 .span1, #toprated .box2 .span1 {
+#toprated .box1 .span1, #toprated #tutorials .box8 .span1, #tutorials #toprated .box8 .span1, #toprated #tutorials .box7 .span1, #tutorials #toprated .box7 .span1, #toprated #tutorials .box6 .span1, #tutorials #toprated .box6 .span1, #toprated #tutorials .box5 .span1, #tutorials #toprated .box5 .span1, #toprated .box4 .span1, #toprated .box3 .span1, #toprated .box2 .span1 {
   float: right;
   margin-top: 2px;
   margin-right: 20px;
   color: #072f60;
   font-weight: bold;
 }
-#toprated .box1 .span2, #toprated .box4 .span2, #toprated .box3 .span2, #toprated .box2 .span2 {
+#toprated .box1 .span2, #toprated #tutorials .box8 .span2, #tutorials #toprated .box8 .span2, #toprated #tutorials .box7 .span2, #tutorials #toprated .box7 .span2, #toprated #tutorials .box6 .span2, #tutorials #toprated .box6 .span2, #toprated #tutorials .box5 .span2, #tutorials #toprated .box5 .span2, #toprated .box4 .span2, #toprated .box3 .span2, #toprated .box2 .span2 {
   color: grey;
 }
-#toprated .box1 .span3, #toprated .box4 .span3, #toprated .box3 .span3, #toprated .box2 .span3 {
+#toprated .box1 .span3, #toprated #tutorials .box8 .span3, #tutorials #toprated .box8 .span3, #toprated #tutorials .box7 .span3, #tutorials #toprated .box7 .span3, #toprated #tutorials .box6 .span3, #tutorials #toprated .box6 .span3, #toprated #tutorials .box5 .span3, #tutorials #toprated .box5 .span3, #toprated .box4 .span3, #toprated .box3 .span3, #toprated .box2 .span3 {
   color: gray;
 }
-#toprated .box1 h6, #toprated .box4 h6, #toprated .box3 h6, #toprated .box2 h6 {
+#toprated .box1 h6, #toprated #tutorials .box8 h6, #tutorials #toprated .box8 h6, #toprated #tutorials .box7 h6, #tutorials #toprated .box7 h6, #toprated #tutorials .box6 h6, #tutorials #toprated .box6 h6, #toprated #tutorials .box5 h6, #tutorials #toprated .box5 h6, #toprated .box4 h6, #toprated .box3 h6, #toprated .box2 h6 {
   margin-top: 20px;
   font-weight: bold;
   color: #072f60;
   font-size: 18px;
   margin-left: 20px;
+  cursor: pointer;
 }
-#toprated .box1 .fa-user, #toprated .box4 .fa-user, #toprated .box3 .fa-user, #toprated .box2 .fa-user {
+#toprated .box1 h6:hover, #toprated #tutorials .box8 h6:hover, #tutorials #toprated .box8 h6:hover, #toprated #tutorials .box7 h6:hover, #tutorials #toprated .box7 h6:hover, #toprated #tutorials .box6 h6:hover, #tutorials #toprated .box6 h6:hover, #toprated #tutorials .box5 h6:hover, #tutorials #toprated .box5 h6:hover, #toprated .box4 h6:hover, #toprated .box3 h6:hover, #toprated .box2 h6:hover {
+  color: #3BBCA7;
+}
+#toprated .box1 .fa-user, #toprated #tutorials .box8 .fa-user, #tutorials #toprated .box8 .fa-user, #toprated #tutorials .box7 .fa-user, #tutorials #toprated .box7 .fa-user, #toprated #tutorials .box6 .fa-user, #tutorials #toprated .box6 .fa-user, #toprated #tutorials .box5 .fa-user, #tutorials #toprated .box5 .fa-user, #toprated .box4 .fa-user, #toprated .box3 .fa-user, #toprated .box2 .fa-user {
   color: #3bbca7;
   margin-left: 5px;
 }
-#toprated .box1 .fa-book, #toprated .box4 .fa-book, #toprated .box3 .fa-book, #toprated .box2 .fa-book {
+#toprated .box1 .fa-book, #toprated #tutorials .box8 .fa-book, #tutorials #toprated .box8 .fa-book, #toprated #tutorials .box7 .fa-book, #tutorials #toprated .box7 .fa-book, #toprated #tutorials .box6 .fa-book, #tutorials #toprated .box6 .fa-book, #toprated #tutorials .box5 .fa-book, #tutorials #toprated .box5 .fa-book, #toprated .box4 .fa-book, #toprated .box3 .fa-book, #toprated .box2 .fa-book {
   color: #3bbca7;
   margin-left: 5px;
 }
-#toprated .box1 .fa-star, #toprated .box4 .fa-star, #toprated .box3 .fa-star, #toprated .box2 .fa-star {
+#toprated .box1 .fa-star, #toprated #tutorials .box8 .fa-star, #tutorials #toprated .box8 .fa-star, #toprated #tutorials .box7 .fa-star, #tutorials #toprated .box7 .fa-star, #toprated #tutorials .box6 .fa-star, #tutorials #toprated .box6 .fa-star, #toprated #tutorials .box5 .fa-star, #tutorials #toprated .box5 .fa-star, #toprated .box4 .fa-star, #toprated .box3 .fa-star, #toprated .box2 .fa-star {
   color: #ffb60a;
   font-size: 14px;
   padding-bottom: 20px;
@@ -736,6 +742,9 @@
   #feature #slider .wrapper .carousel img {
     width: 100%;
   }
+  #tutorials .textbox h2 {
+    display: none;
+  }
 }
 @media (min-width: 1367px) and (max-width: 2160px) {
   #header {
@@ -751,4 +760,297 @@
   #enroll .box .iconbox i {
     margin-left: 190px;
   }
+}
+#platform {
+  background-color: #e9f2f7;
+  padding-top: 50px;
+}
+#platform .dots {
+  margin-left: 80px;
+}
+#platform .textbox {
+  margin-top: 100px;
+  float: right;
+}
+#platform .textbox h1 {
+  color: #072f60;
+  font-weight: bold;
+  font-size: 50px;
+}
+#platform .textbox p {
+  color: grey;
+  margin: 30px 0px;
+}
+#platform .textbox a {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  background-color: #3bbca7;
+  padding: 12px 15px;
+  font-weight: bold;
+  transition: 0.2s ease-in-out;
+}
+#platform .textbox a:hover {
+  color: white;
+  background-color: #072f60;
+}
+
+#tutorials {
+  margin-top: 100px;
+}
+#tutorials h1 {
+  color: #072f60;
+}
+#tutorials ul li {
+  padding: 0px 20px;
+  color: #072f60;
+  font-weight: bold;
+  font-size: 13px;
+  cursor: pointer;
+}
+#tutorials ul li:first-child {
+  color: #3bbca7;
+}
+#tutorials .box1, #tutorials .box8, #tutorials .box7, #tutorials .box6, #tutorials .box5, #tutorials .box4, #tutorials .box3, #tutorials .box2 {
+  font-family: "Heebo", sans-serif;
+  box-shadow: 0px 10px 10px rgba(102, 102, 102, 0.1725490196);
+  border-radius: 5px;
+  transition: 0.2s ease-in-out;
+}
+#tutorials .box1:hover img, #tutorials .box8:hover img, #tutorials .box7:hover img, #tutorials .box6:hover img, #tutorials .box5:hover img, #tutorials .box4:hover img, #tutorials .box3:hover img, #tutorials .box2:hover img {
+  filter: brightness(80%);
+}
+#tutorials .box1 img, #tutorials .box8 img, #tutorials .box7 img, #tutorials .box6 img, #tutorials .box5 img, #tutorials .box4 img, #tutorials .box3 img, #tutorials .box2 img {
+  padding: 20px 0px;
+  transition: 0.2s ease-in-out;
+}
+#tutorials .box1 .human, #tutorials .box8 .human, #tutorials .box7 .human, #tutorials .box6 .human, #tutorials .box5 .human, #tutorials .box4 .human, #tutorials .box3 .human, #tutorials .box2 .human {
+  border-radius: 50%;
+  width: 11%;
+  margin-left: 20px;
+}
+#tutorials .box1 a, #tutorials .box8 a, #tutorials .box7 a, #tutorials .box6 a, #tutorials .box5 a, #tutorials .box4 a, #tutorials .box3 a, #tutorials .box2 a {
+  background-color: #f1faf9;
+  color: #3bbca7;
+  padding: 5px 10px;
+  margin-left: 20px;
+  transition: 0.2s ease-in-out;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+}
+#tutorials .box1 a:hover, #tutorials .box8 a:hover, #tutorials .box7 a:hover, #tutorials .box6 a:hover, #tutorials .box5 a:hover, #tutorials .box4 a:hover, #tutorials .box3 a:hover, #tutorials .box2 a:hover {
+  background-color: #3bbca7;
+  color: white;
+}
+#tutorials .box1 .span1, #tutorials .box8 .span1, #tutorials .box7 .span1, #tutorials .box6 .span1, #tutorials .box5 .span1, #tutorials .box4 .span1, #tutorials .box3 .span1, #tutorials .box2 .span1 {
+  float: right;
+  margin-top: 2px;
+  margin-right: 20px;
+  color: #072f60;
+  font-weight: bold;
+}
+#tutorials .box1 .span2, #tutorials .box8 .span2, #tutorials .box7 .span2, #tutorials .box6 .span2, #tutorials .box5 .span2, #tutorials .box4 .span2, #tutorials .box3 .span2, #tutorials .box2 .span2 {
+  color: grey;
+}
+#tutorials .box1 .span3, #tutorials .box8 .span3, #tutorials .box7 .span3, #tutorials .box6 .span3, #tutorials .box5 .span3, #tutorials .box4 .span3, #tutorials .box3 .span3, #tutorials .box2 .span3 {
+  color: gray;
+}
+#tutorials .box1 h6, #tutorials .box8 h6, #tutorials .box7 h6, #tutorials .box6 h6, #tutorials .box5 h6, #tutorials .box4 h6, #tutorials .box3 h6, #tutorials .box2 h6 {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #072f60;
+  font-size: 18px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+#tutorials .box1 h6:hover, #tutorials .box8 h6:hover, #tutorials .box7 h6:hover, #tutorials .box6 h6:hover, #tutorials .box5 h6:hover, #tutorials .box4 h6:hover, #tutorials .box3 h6:hover, #tutorials .box2 h6:hover {
+  color: #3bbca7;
+}
+#tutorials .box1 .fa-user, #tutorials .box8 .fa-user, #tutorials .box7 .fa-user, #tutorials .box6 .fa-user, #tutorials .box5 .fa-user, #tutorials .box4 .fa-user, #tutorials .box3 .fa-user, #tutorials .box2 .fa-user {
+  color: #3bbca7;
+  margin-left: 5px;
+}
+#tutorials .box1 .fa-book, #tutorials .box8 .fa-book, #tutorials .box7 .fa-book, #tutorials .box6 .fa-book, #tutorials .box5 .fa-book, #tutorials .box4 .fa-book, #tutorials .box3 .fa-book, #tutorials .box2 .fa-book {
+  color: #3bbca7;
+  margin-left: 5px;
+}
+#tutorials .box1 .fa-star, #tutorials .box8 .fa-star, #tutorials .box7 .fa-star, #tutorials .box6 .fa-star, #tutorials .box5 .fa-star, #tutorials .box4 .fa-star, #tutorials .box3 .fa-star, #tutorials .box2 .fa-star {
+  color: #ffb60a;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+#topics {
+  background-color: #f6f7f9;
+  margin-top: 100px;
+}
+#topics h2 {
+  padding: 50px 0px;
+  color: #072f60;
+  font-weight: bold;
+}
+#topics .box {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+#topics .box:hover {
+  background-color: #072f60;
+}
+#topics .box:hover span {
+  color: white;
+}
+#topics .box img {
+  width: 20%;
+}
+#topics .box span {
+  color: #072f60;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 0px 10px;
+}
+
+#tricks {
+  width: 80%;
+  margin: auto;
+}
+#tricks h2 {
+  color: #072f60;
+  padding: 50px 0px;
+}
+#tricks .leftside {
+  margin-top: 20px;
+}
+#tricks .rightside .box {
+  font-family: "Heebo", sans-serif;
+  box-shadow: 0px 10px 10px rgba(102, 102, 102, 0.1725490196);
+  border-radius: 5px;
+  transition: 0.2s ease-in-out;
+}
+#tricks .rightside .box:hover img {
+  filter: brightness(80%);
+}
+#tricks .rightside .box img {
+  padding: 20px 0px;
+  transition: 0.2s ease-in-out;
+}
+#tricks .rightside .box .human {
+  border-radius: 50%;
+  width: 11%;
+  margin-left: 20px;
+}
+#tricks .rightside .box a {
+  background-color: #f1faf9;
+  color: #3bbca7;
+  padding: 5px 10px;
+  margin-left: 20px;
+  transition: 0.2s ease-in-out;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+}
+#tricks .rightside .box a:hover {
+  background-color: #3bbca7;
+  color: white;
+}
+#tricks .rightside .box .span1 {
+  float: right;
+  margin-top: 2px;
+  margin-right: 20px;
+  color: #072f60;
+  font-weight: bold;
+}
+#tricks .rightside .box .span2 {
+  color: grey;
+}
+#tricks .rightside .box .span3 {
+  color: gray;
+}
+#tricks .rightside .box h6 {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #072f60;
+  font-size: 18px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+#tricks .rightside .box h6:hover {
+  color: #3bbca7;
+}
+#tricks .rightside .box .fa-user {
+  color: #3bbca7;
+  margin-left: 5px;
+}
+#tricks .rightside .box .fa-book {
+  color: #3bbca7;
+  margin-left: 5px;
+}
+#tricks .rightside .box .fa-star {
+  color: #ffb60a;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+#tricks .button {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+#tricks .button a {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  background-color: #3bbca7;
+  padding: 12px 15px;
+  font-weight: bold;
+  transition: 0.2s ease-in-out;
+}
+#tricks .button a:hover {
+  color: white;
+  background-color: #072f60;
+}
+
+#corp {
+  background-color: #f6f7f9;
+  margin-top: 100px;
+}
+#corp .mainh1 {
+  color: #072f60;
+  padding: 50px 0px;
+}
+#corp .box img {
+  margin-left: 80px;
+}
+#corp .box .p1 {
+  color: #224570;
+  font-weight: bold;
+  font-size: 20px;
+}
+#corp .box .p2 {
+  color: #224570;
+  font-weight: bold;
+}
+#corp .box .p3 {
+  color: gray;
+  font-weight: 500;
+  font-size: 12px;
+}
+#corp .box2 {
+  margin-top: 70px;
+}
+#corp .numberbox {
+  margin-top: 50px;
+}
+#corp .numberbox .h1 {
+  color: #3bbca7;
+  font-weight: 600;
+}
+#corp .numberbox .p4 {
+  color: #224570;
+  font-weight: 500;
+  font-size: 14px;
 }/*# sourceMappingURL=style.css.map */

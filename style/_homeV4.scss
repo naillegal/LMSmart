@@ -1,0 +1,326 @@
+#platform {
+  background-color: #e9f2f7;
+  padding-top: 50px;
+  .dots {
+    margin-left: 80px;
+  }
+  .textbox {
+    margin-top: 100px;
+    float: right;
+    h1 {
+      color: #072f60;
+      font-weight: bold;
+      font-size: 50px;
+    }
+    p {
+      color: grey;
+      margin: 30px 0px;
+    }
+    a {
+      text-decoration: none;
+      display: inline-block;
+      color: white;
+      background-color: #3bbca7;
+      padding: 12px 15px;
+      font-weight: bold;
+      transition: 0.2s ease-in-out;
+      &:hover {
+        color: white;
+        background-color: #072f60;
+      }
+    }
+  }
+}
+// platform end
+#tutorials {
+  margin-top: 100px;
+  h1 {
+    color: #072f60;
+  }
+  ul {
+    li {
+      padding: 0px 20px;
+      color: #072f60;
+      font-weight: bold;
+      font-size: 13px;
+      cursor: pointer;
+      &:first-child {
+        color: #3bbca7;
+      }
+    }
+  }
+  .box1 {
+    font-family: "Heebo", sans-serif;
+    box-shadow: 0px 10px 10px #6666662c;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+    &:hover {
+      img {
+        filter: brightness(80%);
+      }
+    }
+    img {
+      padding: 20px 0px;
+      transition: 0.2s ease-in-out;
+    }
+    .human {
+      border-radius: 50%;
+      width: 11%;
+      margin-left: 20px;
+    }
+    a {
+      background-color: #f1faf9;
+      color: #3bbca7;
+      padding: 5px 10px;
+      margin-left: 20px;
+      transition: 0.2s ease-in-out;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 12px;
+      &:hover {
+        background-color: #3bbca7;
+        color: white;
+      }
+    }
+    .span1 {
+      float: right;
+      margin-top: 2px;
+      margin-right: 20px;
+      color: #072f60;
+      font-weight: bold;
+    }
+    .span2 {
+      color: grey;
+    }
+    .span3 {
+      color: gray;
+    }
+    h6 {
+      margin-top: 20px;
+      font-weight: bold;
+      color: #072f60;
+      font-size: 18px;
+      margin-left: 20px;
+      cursor: pointer;
+      &:hover {
+        color: #3bbca7;
+      }
+    }
+    .fa-user {
+      color: #3bbca7;
+      margin-left: 5px;
+    }
+    .fa-book {
+      color: #3bbca7;
+      margin-left: 5px;
+    }
+    .fa-star {
+      color: #ffb60a;
+      font-size: 14px;
+      padding-bottom: 20px;
+    }
+  }
+  .box2 {
+    @extend .box1;
+  }
+  .box3 {
+    @extend .box1;
+  }
+  .box4 {
+    @extend .box1;
+  }
+  .box5 {
+    @extend .box1;
+  }
+  .box6 {
+    @extend .box1;
+  }
+  .box7 {
+    @extend .box1;
+  }
+  .box8 {
+    @extend .box1;
+  }
+}
+// tutorials end
+#topics {
+  background-color: #f6f7f9;
+  margin-top: 100px;
+  h2 {
+    padding: 50px 0px;
+    color: #072f60;
+    font-weight: bold;
+  }
+  .box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    &:hover {
+      background-color: #072f60;
+      span {
+        color: white;
+      }
+    }
+    img {
+      width: 20%;
+    }
+    span {
+      color: #072f60;
+      font-weight: bold;
+      font-size: 18px;
+      padding: 0px 10px;
+    }
+  }
+}
+// topics end
+#tricks {
+  width: 80%;
+  margin: auto;
+  h2 {
+    color: #072f60;
+    padding: 50px 0px;
+  }
+  .leftside {
+    margin-top: 20px;
+  }
+  .rightside {
+    .box {
+      font-family: "Heebo", sans-serif;
+      box-shadow: 0px 10px 10px #6666662c;
+      border-radius: 5px;
+      transition: 0.2s ease-in-out;
+      &:hover {
+        img {
+          filter: brightness(80%);
+        }
+      }
+      img {
+        padding: 20px 0px;
+        transition: 0.2s ease-in-out;
+      }
+      .human {
+        border-radius: 50%;
+        width: 11%;
+        margin-left: 20px;
+      }
+      a {
+        background-color: #f1faf9;
+        color: #3bbca7;
+        padding: 5px 10px;
+        margin-left: 20px;
+        transition: 0.2s ease-in-out;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 12px;
+        &:hover {
+          background-color: #3bbca7;
+          color: white;
+        }
+      }
+      .span1 {
+        float: right;
+        margin-top: 2px;
+        margin-right: 20px;
+        color: #072f60;
+        font-weight: bold;
+      }
+      .span2 {
+        color: grey;
+      }
+      .span3 {
+        color: gray;
+      }
+      h6 {
+        margin-top: 20px;
+        font-weight: bold;
+        color: #072f60;
+        font-size: 18px;
+        margin-left: 20px;
+        cursor: pointer;
+        &:hover {
+          color: #3bbca7;
+        }
+      }
+      .fa-user {
+        color: #3bbca7;
+        margin-left: 5px;
+      }
+      .fa-book {
+        color: #3bbca7;
+        margin-left: 5px;
+      }
+      .fa-star {
+        color: #ffb60a;
+        font-size: 14px;
+        padding-bottom: 20px;
+      }
+    }
+  }
+  .button {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    a {
+      text-decoration: none;
+      display: inline-block;
+      color: white;
+      background-color: #3bbca7;
+      padding: 12px 15px;
+      font-weight: bold;
+      transition: 0.2s ease-in-out;
+      &:hover {
+        color: white;
+        background-color: #072f60;
+      }
+    }
+  }
+}
+#corp {
+  background-color: #f6f7f9;
+  margin-top: 100px;
+  .mainh1{
+    color: #072f60;
+    padding: 50px 0px;
+
+  }
+  .box{
+    img{
+      margin-left: 80px;
+    }
+    .p1{
+      color: #224570;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .p2{
+      color: #224570;
+      font-weight: bold;
+    }
+    .p3{
+      color: gray;
+      font-weight: 500;
+      font-size: 12px;
+    }
+  }
+  .box2{
+    margin-top: 70px;
+  }
+  .numberbox{
+    margin-top:50px;
+    .h1{
+      color: #3bbca7;
+      font-weight: 600;
+    }
+    .p4{
+      color: #224570;
+      font-weight: 500;
+      font-size: 14px;
+    }
+  }
+}
+// tricks end

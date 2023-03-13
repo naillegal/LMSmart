@@ -280,7 +280,7 @@
           display: block;
           color: #072f60;
           text-decoration: none;
-          font-weight: bold;
+          font-weight: 500;
           font-family: inherit;
           margin-top: 20px;
           padding: 0px 15px;
@@ -423,7 +423,7 @@
     }
     .human {
       border-radius: 50%;
-      width: 15%;
+      width: 11%;
       margin-left: 20px;
     }
     a {
@@ -434,6 +434,8 @@
       transition: 0.2s ease-in-out;
       border-radius: 5px;
       text-decoration: none;
+      font-weight: 500;
+      font-size: 12px;
       &:hover {
         background-color: #3bbca7;
         color: white;
@@ -458,6 +460,10 @@
       color: #072f60;
       font-size: 18px;
       margin-left: 20px;
+      cursor: pointer;
+      &:hover{
+        color: #3BBCA7;
+      }
     }
     .fa-user {
       color: #3bbca7;
@@ -790,3 +796,4 @@
 }
 // footer end
 @import "responsive";
+@import 'homeV4'

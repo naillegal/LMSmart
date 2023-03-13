@@ -34,7 +34,7 @@ dropicon4.addEventListener('click', function () {
 
 
 let valueDisplays = document.querySelectorAll('.num');
-let interval = 2000;
+let interval = 5000;
 
 valueDisplays.forEach((valueDisplay) => {
     let startValue = 0;
@@ -58,6 +58,7 @@ let box1 = document.querySelector('.box1')
 let box2 = document.querySelector('.box2')
 let box3 = document.querySelector('.box3')
 let box4 = document.querySelector('.box4')
+
 
 
 allclick.onclick = () => {
@@ -93,29 +94,32 @@ lifestyleclick.onclick = () => {
     allclick.style.color = cookingclick.style.color = financeclick.style.color = '#141948';
 };
 
+
+
+
 //  slider start 
 const carousel = document.querySelector("#slider .carousel"),
-firstImg = carousel.querySelectorAll("img")[0],
-arrowIcons = document.querySelectorAll(".wrapper i");
+    firstImg = carousel.querySelectorAll("img")[0],
+    arrowIcons = document.querySelectorAll(".wrapper i");
 let isDragStart = false, isDragging = false, prevPageX, prevScrollLeft, positionDiff;
 const showHideIcons = () => {
-    let scrollWidth = carousel.scrollWidth - carousel.clientWidth; 
+    let scrollWidth = carousel.scrollWidth - carousel.clientWidth;
     arrowIcons[0].style.display = carousel.scrollLeft == 0 ? "none" : "block";
     arrowIcons[1].style.display = carousel.scrollLeft == scrollWidth ? "none" : "block";
 }
 arrowIcons.forEach(icon => {
     icon.addEventListener("click", () => {
-        let firstImgWidth = firstImg.clientWidth + 14; 
+        let firstImgWidth = firstImg.clientWidth + 14;
         carousel.scrollLeft += icon.id == "left" ? -firstImgWidth : firstImgWidth;
-        setTimeout(() => showHideIcons(), 60); 
+        setTimeout(() => showHideIcons(), 60);
     });
 });
 const autoSlide = () => {
-    if(carousel.scrollLeft - (carousel.scrollWidth - carousel.clientWidth) > -1 || carousel.scrollLeft <= 0) return;
-    positionDiff = Math.abs(positionDiff); 
+    if (carousel.scrollLeft - (carousel.scrollWidth - carousel.clientWidth) > -1 || carousel.scrollLeft <= 0) return;
+    positionDiff = Math.abs(positionDiff);
     let firstImgWidth = firstImg.clientWidth + 14;
     let valDifference = firstImgWidth - positionDiff;
-    if(carousel.scrollLeft > prevScrollLeft) { 
+    if (carousel.scrollLeft > prevScrollLeft) {
         return carousel.scrollLeft += positionDiff > firstImgWidth / 3 ? valDifference : -positionDiff;
     }
     carousel.scrollLeft -= positionDiff > firstImgWidth / 3 ? valDifference : -positionDiff;
@@ -126,7 +130,7 @@ const dragStart = (e) => {
     prevScrollLeft = carousel.scrollLeft;
 }
 const dragging = (e) => {
-    if(!isDragStart) return;
+    if (!isDragStart) return;
     e.preventDefault();
     isDragging = true;
     carousel.classList.add("dragging");
@@ -137,7 +141,7 @@ const dragging = (e) => {
 const dragStop = () => {
     isDragStart = false;
     carousel.classList.remove("dragging");
-    if(!isDragging) return;
+    if (!isDragging) return;
     isDragging = false;
     autoSlide();
 }

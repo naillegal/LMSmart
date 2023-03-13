@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMSmart</title>
+    <link rel="stylesheet" href="vendors/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style/style.css">
+    <script async src="vendors/jquery-3.6.3.min.js"></script>
+    <script async src="js/homeV4.js"></script>
+</head>
+
+<body>
+    <div class="clicktoup">
+        <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+    <div id="responsive-header">
+        <div class="d-flex justify-content-around align-items-center">
+            <div class="menuicon"><i class="fa-solid fa-bars"></i></div>
+            <div class="logo"><img src="images/2x_logo-white.png" alt=""></div>
+            <div class="search"><i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+    </div>
+    <div class="clickmenu">
+        <div class="logo"></div>
+        <ul class="list-unstyled">
+            <li class="clickhome"><a style="color: #3BBCA7;" href="#">Home<i class="i1 fa-solid fa-angle-right"></i></a>
+                <ul class="clickhome-dropped list-unstyled">
+                    <li><a style="color:#3bbca7 ;" href="#">Home V1</a></li>
+                    <li><a href="#">Home V2</a></li>
+                    <li><a href="#">Home V3</a></li>
+                    <li><a href="#">Home V4</a></li>
+                    <li><a href="#">Home V5</a></li>
+                </ul>
+            </li>
+            <li class="clickcourses"><a href="#">Courses<i class="i2 fa-solid fa-angle-right"></i></a>
+                <ul class="clickcourses-dropped list-unstyled">
+                    <li><a href="#">Course Grid Layout</a></li>
+                    <li><a href="#">Course Sidebar Filter</a></li>
+                    <li><a href="#">Dashboard/Profile</a></li>
+                    <li><a href="#">Paid Type Course</a></li>
+                    <li><a href="#">Free Type Course</a></li>
+                </ul>
+            </li>
+            <li class="clickblog"><a href="#">Blog<i class="i3 fa-solid fa-angle-right"></i></a>
+                <ul class="clickblog-dropped list-unstyled">
+                    <li><a href="#">Blog Grid</a></li>
+                    <li><a href="#">Blog Listing</a></li>
+                    <li><a href="#">Blog Single</a></li>
+                </ul>
+            </li>
+            <li class="clickpages"><a href="#">Pages<i class="i4 fa-solid fa-angle-right"></i></a>
+                <ul class="clickpages-dropped list-unstyled">
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About Us 1</a></li>
+                    <li><a href="#">About Us 2</a></li>
+                    <li><a href="#">Events Single</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Our Team</a></li>
+                    <li><a href="#">Team Single</a></li>
+                    <li><a href="#">404 Page</a></li>
+                    <li><a href="#">FAQ'S</a></li>
+                </ul>
+            </li>
+        </ul>
+        <div class="d-flex justify-content-center">
+            <input type="text" placeholder="Search ...">
+        </div>
+    </div>
+    <header id="header">
+        <div class="d-flex justify-content-around align-items-center">
+            <div class="logo d-flex justify-content-center">
+                <img src="images/2x_logo.png" alt="">
+            </div>
+            <div class="navmenu">
+                <ul class="list-unstyled d-flex">
+                    <li class="home"><a href="#">Home<i style="color:#3BBCA7;" class="fa-solid fa-angle-down"></i></a>
+                        <ul class="home-dropped list-unstyled">
+                            <li><a href="#">Home V1</a></li>
+                            <li><a href="index.html">Home V2</a></li>
+                            <li><a href="#">Home V3</a></li>
+                            <li><a href="homeV4.html">Home V4</a></li>
+                            <li><a href="#">Home V5</a></li>
+                        </ul>
+                    </li>
+                    <li class="courses"><a href="#">Courses<i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="courses-dropped list-unstyled">
+                            <li><a href="#">Course Grid Layout</a></li>
+                            <li><a href="#">Course Sidebar Filter</a></li>
+                            <li><a href="#">Dashboard/Profile</a></li>
+                            <li><a href="#">Paid Type Course</a></li>
+                            <li><a href="#">Free Type Course</a></li>
+                        </ul>
+                    </li>
+                    <li class="blog"><a href="#">Blog<i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="blog-dropped list-unstyled">
+                            <li><a href="#">Blog Grid</a></li>
+                            <li><a href="#">Blog Listing</a></li>
+                            <li><a href="#">Blog Single</a></li>
+                        </ul>
+                    </li>
+                    <li class="pages"><a href="#">Pages<i class="fa-solid fa-angle-down"></i></a>
+                        <ul class="pages-dropped list-unstyled">
+                            <li><a href="#">Shop</a></li>
+                            <li><a href="#">About Us 1</a></li>
+                            <li><a href="#">About Us 2</a></li>
+                            <li><a href="#">Events Single</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Team Single</a></li>
+                            <li><a href="#">404 Page</a></li>
+                            <li><a href="#">FAQ'S</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="inputbox">
+                <input type="text" placeholder="Search"><i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="line"></div>
+            <div class="rightside d-flex">
+                <p><i class="fa-regular fa-user"></i> Login / Register</p>
+            </div>
+        </div>
+    </header>
+    <!-- header end  -->
+    <section id="platform">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="box">
+                        <img class="img-fluid dots" src="images/dots.png" alt="">
+                        <div class="textbox">
+                            <h1>A learning platform that<br>helps you to learning<br>faster</h1>
+                            <p>World-class training and development programs<br>developed by top teachers</p>
+                            <a href="#">Explore All Courses</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="box">
+                        <img class="img-fluid" src="images/humanv4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- platform end  -->
+    <section id="tutorials">
+        <div class="textbox d-flex justify-content-around">
+            <h2>Top Rated Learning Tutorials</h2>
+            <ul class="list-unstyled d-flex">
+                <li class="clickall">ALL</li>
+                <li class="clickcooking">COOKING</li>
+                <li class="clickfinance">FINANCE</li>
+                <li class="clicklifestyle">LIFESTYLE</li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 box1">
+                    <img class="img-fluid" src="images/box1.jpeg" alt="">
+                    <a href="#">Cooking</a><span class="span1">Free</span>
+                    <h6>Absolute Beginners<br>Cooking Course</h6>
+                    <img class="human" src="images/human1.jpeg" alt=""> <span class="span2">Tim Burton</span>
+                    <hr>
+                    <i class="fa-regular fa-user"></i>
+                    <span class="span3">86</span>
+                    <i class="fa-solid fa-book"></i>
+                    <span style="margin-right: 30px;" class="span3">10</span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 box2">
+                    <img class="img-fluid" src="images/box2.jpeg" alt="">
+                    <a href="#">Business</a><span class="span1">$29.00</span>
+                    <h6>Web Design Training with<br>Elementor</h6>
+                    <img class="human" src="images/human2.jpeg" alt=""> <span class="span2">Devon Koss</span>
+                    <hr>
+                    <i class="fa-regular fa-user"></i>
+                    <span class="span3">11</span>
+                    <i class="fa-solid fa-book"></i>
+                    <span style="margin-right: 30px;" class="span3">12</span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 box3">
+                    <img class="img-fluid" src="images/box3.jpeg" alt="">
+                    <a href="#">Cooking</a><span class="span1">$39.00</span>
+                    <h6>Basic Level Youth Health<br>and Cooking</h6>
+                    <img class="human" src="images/human3.jpeg" alt=""> <span class="span2">Fred Hyman</span>
+                    <hr>
+                    <i class="fa-regular fa-user"></i>
+                    <span class="span3">1</span>
+                    <i class="fa-solid fa-book"></i>
+                    <span style="margin-right: 30px;" class="span3">12</span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 box4">
+                    <img class="img-fluid" src="images/box4.jpeg" alt="">
+                    <a href="#">Lifestyle</a><span class="span1">Free</span>
+                    <h6>Drawing and Painting<br>Course for Children</h6>
+                    <img class="human" src="images/human1.jpeg" alt=""> <span class="span2">Tim Burton</span>
+                    <hr>
+                    <i class="fa-regular fa-user"></i>
+                    <span class="span3">35</span>
+                    <i class="fa-solid fa-book"></i>
+                    <span style="margin-right: 30px;" class="span3">14</span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 box5">
+                    <img class="img-fluid" src="images/box5.jpeg" alt="">
+                    <a href="#">Finance</a><span class="span1">$29.00</span>
+                    <h6>WordPress Beginner to<br>Advanced Course</h6>
+                    <img class="human" src="images/human2.jpeg" alt=""> <span class="span2">Devon Koss</span>
+                    <hr>
+                    <i class="fa-regular fa-user"></i>
+                    <span class="span3">1</span>
+                    <i class="fa-solid fa-book"></i>
+                    <span style="margin-right: 30px;" class="span3">13</span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 box6">
+                    <img class="img-fluid" src="images/box6.jpeg" alt="">
+                    <a href="#">Business</a><span class="span1">Free</span>
+                    <h6>Complete Digital Marketing<br>Course</h6>
+                    <img class="human" src="images/human1.jpeg" alt=""> <span class="span2">Tim Burton</span>
+                    <hr>
+                    <i class="fa-regular fa-user"></i>
+                    <span class="span3">57</span>
+                    <i class="fa-solid fa-book"></i>
+                    <span style="margin-right: 30px;" class="span3">11</span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i style="color: grey;" class="fa-solid fa-star"></i>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 box7">
+                    <img class="img-fluid" src="images/box7.jpeg" alt="">
+                    <a href="#">Cooking</a><span class="span1">Free</span>
+                    <h6>Online Healthy Cooking<br>Course</h6>
+                    <img class="human" src="images/human3.jpeg" alt=""> <span class="span2">Fred Hyman</span>
+                    <hr>
+                    <i class="fa-regular fa-user"></i>
+                    <span class="span3">11</span>
+                    <i class="fa-solid fa-book"></i>
+                    <span style="margin-right: 30px;" class="span3">12</span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i style="color: grey;" class="fa-solid fa-star"></i>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 box8">
+                    <img class="img-fluid" src="images/box8.jpeg" alt="">
+                    <a href="#">Business</a><span class="span1">Free</span>
+                    <h6>The Ultimate App Making<br>Course</h6>
+                    <img class="human" src="images/human2.jpeg" alt=""> <span class="span2">Devon Koss</span>
+                    <hr>
+                    <i class="fa-regular fa-user"></i>
+                    <span class="span3">5</span>
+                    <i class="fa-solid fa-book"></i>
+                    <span style="margin-right: 30px;" class="span3">11</span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- tutorials end  -->
+    <section id="topics">
+        <div class="text-center">
+            <h2>Featured topics by category</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img src="images/ibox1.png" alt="">
+                        <span>Design</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img src="images/ibox2.png" alt="">
+                        <span>Chemistry</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img src="images/ibox3.png" alt="">
+                        <span>Technology</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img src="images/ibox4.png" alt="">
+                        <span>Medical</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img src="images/ibox5.png" alt="">
+                        <span>Mathematics</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img src="images/ibox6.png" alt="">
+                        <span>Food & Recipe</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img src="images/ibox7.png" alt="">
+                        <span>Language</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img src="images/ibox8.png" alt="">
+                        <span>Art & Block</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- topics end  -->
+    <section id="tricks">
+        <div class="text-center">
+            <h2>Top Rated Learning Tutorials</h2>
+        </div>
+        <div class="d-flex">
+            <div class="leftside">
+                <img src="images/leftside.png" alt="">
+            </div>
+            <div class="rightside">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                            <div class="box">
+                                <img class="img-fluid" src="images/box1.jpeg" alt="">
+                                <a href="#">Cooking</a><span class="span1">Free</span>
+                                <h6>Absolute Beginners<br>Cooking Course</h6>
+                                <img class="human" src="images/human1.jpeg" alt=""> <span class="span2">Tim
+                                    Burton</span>
+                                <hr>
+                                <i class="fa-regular fa-user"></i>
+                                <span class="span3">86</span>
+                                <i class="fa-solid fa-book"></i>
+                                <span style="margin-right: 30px;" class="span3">10</span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                            <div class="box">
+                                <img class="img-fluid" src="images/box2.jpeg" alt="">
+                                <a href="#">Business</a><span class="span1">$29.00</span>
+                                <h6>Web Design Training with<br>Elementor</h6>
+                                <img class="human" src="images/human2.jpeg" alt=""> <span class="span2">Devon
+                                    Koss</span>
+                                <hr>
+                                <i class="fa-regular fa-user"></i>
+                                <span class="span3">11</span>
+                                <i class="fa-solid fa-book"></i>
+                                <span style="margin-right: 30px;" class="span3">12</span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                            <div class="box">
+                                <img class="img-fluid" src="images/box3.jpeg" alt="">
+                                <a href="#">Cooking</a><span class="span1">$39.00</span>
+                                <h6>Basic Level Youth Health<br>and Cooking</h6>
+                                <img class="human" src="images/human3.jpeg" alt=""> <span class="span2">Fred
+                                    Hyman</span>
+                                <hr>
+                                <i class="fa-regular fa-user"></i>
+                                <span class="span3">1</span>
+                                <i class="fa-solid fa-book"></i>
+                                <span style="margin-right: 30px;" class="span3">12</span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                            <div class="box">
+                                <img class="img-fluid" src="images/box4.jpeg" alt="">
+                                <a href="#">Lifestyle</a><span class="span1">Free</span>
+                                <h6>Drawing and Painting<br>Course for Children</h6>
+                                <img class="human" src="images/human1.jpeg" alt=""> <span class="span2">Tim
+                                    Burton</span>
+                                <hr>
+                                <i class="fa-regular fa-user"></i>
+                                <span class="span3">35</span>
+                                <i class="fa-solid fa-book"></i>
+                                <span style="margin-right: 30px;" class="span3">14</span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                            <div class="box">
+                                <img class="img-fluid" src="images/box5.jpeg" alt="">
+                                <a href="#">Finance</a><span class="span1">$29.00</span>
+                                <h6>WordPress Beginner to<br>Advanced Course</h6>
+                                <img class="human" src="images/human2.jpeg" alt=""> <span class="span2">Devon
+                                    Koss</span>
+                                <hr>
+                                <i class="fa-regular fa-user"></i>
+                                <span class="span3">1</span>
+                                <i class="fa-solid fa-book"></i>
+                                <span style="margin-right: 30px;" class="span3">13</span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                            <div class="box">
+                                <img class="img-fluid" src="images/box6.jpeg" alt="">
+                                <a href="#">Business</a><span class="span1">Free</span>
+                                <h6>Complete Digital Marketing<br>Course</h6>
+                                <img class="human" src="images/human1.jpeg" alt=""> <span class="span2">Tim
+                                    Burton</span>
+                                <hr>
+                                <i class="fa-regular fa-user"></i>
+                                <span class="span3">57</span>
+                                <i class="fa-solid fa-book"></i>
+                                <span style="margin-right: 30px;" class="span3">11</span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i style="color: grey;" class="fa-solid fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="button">
+            <a href="#">Explore All Courses</a>
+        </div>
+    </section>
+    <!-- tricks end  -->
+    <section id="corp">
+        <div class="text-center">
+            <h1 class="mainh1 ">What people say about us</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="box">
+                        <img class="img-fluid" src="images/corpimg.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="box box2">
+                        <p class="p1">World-class training and development programs<br>developed by top teachers Connect Fellow to
+                            the<br>tools you love to make your meeting,management,<br>and productivity workflows even
+                            better</p>
+                            <p class="p2">James Smith</p>
+                            <p class="p3">CFO Apple Corp</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="numberbox">
+                        <h1 class="h1">360+</h1>
+                        <p class="p4">Hours Of Learning</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="numberbox">
+                        <h1 class="h1">1200+</h1>
+                        <p class="p4">Enrolled Learners</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="numberbox">
+                        <h1 class="h1">650+</h1>
+                        <p class="p4">Online Instructors</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="numberbox">
+                        <h1 class="h1">100%</h1>
+                        <p class="p4">Satisfaction rate</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- corp end  -->
+    <section id="news">
+        <div class="text-center">
+            <h1>Get from our news & article</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img class="img-fluid" src="images/firstbox.jpeg" alt="">
+                        <i class="fa-regular fa-user"></i>
+                        <span>Fred Hyman</span>
+                        <i class="fa-regular fa-message"></i>
+                        <span>2 Comments</span>
+                        <h4>Thoughts for Educators On<br>School Reopening</h4>
+                        <p>In order to write the perfect blog post, you<br>need to break your content up into<br>paragraphs....</p>
+                        <button>Lifestyle</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img class="img-fluid" src="images/secondbox.jpeg" alt="">
+                        <i class="fa-regular fa-user"></i>
+                        <span>Fred Hyman</span>
+                        <i class="fa-regular fa-message"></i>
+                        <span>2 Comments</span>
+                        <h4>Information About Teacher<br>Certification</h4>
+                        <p>In order to write the perfect blog post, you<br>need to break your content up into<br>paragraphs....</p>
+                        <button>Lifestyle</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img class="img-fluid" src="images/thirdbox.jpeg" alt="">
+                        <i class="fa-regular fa-user"></i>
+                        <span>Fred Hyman</span>
+                        <i class="fa-regular fa-message"></i>
+                        <span>2 Comments</span>
+                        <h4>We are changing the way the world learns</h4>
+                        <p>In order to write the perfect blog post, you<br>need to break your content up into<br>paragraphs....</p>
+                        <button>Learning</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- news end  -->
+    <section id="business">
+        <div class="container mainbox">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="box textbox">
+                        <h1>Start for Business</h1>
+                        <p>Get unlimited access to 5,500+ of our top for your<br>team</p>
+                        <a href="#">Get For Business</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="box imgbox">
+                        <img src="images/boy.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- business end  -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img src="images/2x_logo-white.png" alt="">
+                        <p>We support programs that<br>create advancement for<br>people</p>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <span>Useful links</span>
+                        <ul>
+                            <li>About Us</li><br>
+                            <li>Privacy Policy</li><br>
+                            <li>Terms & condition</li><br>
+                            <li>Student spotlight</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <span>Learning</span>
+                        <ul>
+                            <li>Business Strategy</li>
+                            <li>Become A Teacher</li>
+                            <li>Project Managment</li>
+                            <li>Membership</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <span style="margin: 20px 0px;">Contact Us</span>
+                        <p><i class="fa-solid fa-phone-volume"></i>+91 458 654 528</p>
+                        <p><i class="fa-regular fa-envelope-open"></i>info@example.com</p>
+                        <p><i class="fa-solid fa-location-dot"></i>PO Box 16122 Collins Street<br>West Victoria 8007
+                            Australia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr style="width: 85%; margin: 30px auto;">
+        <p style="text-align: center;">© Copyright 2023 Pixelcurve All rights reserved.</p>
+    </footer>
+    <!-- footer end  -->
+</body>
+
+</html>
