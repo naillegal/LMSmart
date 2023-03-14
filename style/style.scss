@@ -782,7 +782,7 @@
       list-style: none;
       li {
         padding: 5px 0px;
-        font-size: 18px;
+        font-size: 14px;
         display: inline-block;
         cursor: pointer;
         &:hover {
@@ -795,8 +795,12 @@
       color: #37ab9d;
     }
   }
+  p {
+    font-size: 14px;
+  }
 }
 // footer end
 @import "responsive";
+@import 'homeV1';
 @import "homeV4";
 @import "homeV5";

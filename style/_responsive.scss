@@ -51,7 +51,14 @@
     img{
       display: none;
     }
+  }  
+}
+#explore{
+  .text{
+  .buttonv1{
+    display: none;
   }
+}
 }
 }
 @media (min-width: 1367px) and (max-width: 2160px) {
@@ -80,5 +87,12 @@
         }
       }
     }
+  }
+  #explore{
+    .text{
+    .buttonv1{
+      width: 8%;
+    }
+  }
   }
 }

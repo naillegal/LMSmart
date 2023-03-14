@@ -355,25 +355,25 @@
   padding: 10px 15px;
   cursor: pointer;
 }
-#toprated .box1, #toprated #tutorials .box8, #tutorials #toprated .box8, #toprated #tutorials .box7, #tutorials #toprated .box7, #toprated #tutorials .box6, #tutorials #toprated .box6, #toprated #tutorials .box5, #tutorials #toprated .box5, #toprated .box4, #toprated .box3, #toprated .box2 {
+#toprated .box1, #toprated #tutorials .box8, #tutorials #toprated .box8, #toprated #tutorials .box7, #tutorials #toprated .box7, #toprated #tutorials .box6, #tutorials #toprated .box6, #toprated #tutorials .box5, #tutorials #toprated .box5, #toprated #preview .box8, #preview #toprated .box8, #toprated #preview .box7, #preview #toprated .box7, #toprated #preview .box6, #preview #toprated .box6, #toprated #preview .box5, #preview #toprated .box5, #toprated .box4, #toprated .box3, #toprated .box2 {
   font-family: "Heebo", sans-serif;
   box-shadow: 0px 10px 10px rgba(102, 102, 102, 0.1725490196);
   border-radius: 5px;
   transition: 0.2s ease-in-out;
 }
-#toprated .box1:hover img, #toprated #tutorials .box8:hover img, #tutorials #toprated .box8:hover img, #toprated #tutorials .box7:hover img, #tutorials #toprated .box7:hover img, #toprated #tutorials .box6:hover img, #tutorials #toprated .box6:hover img, #toprated #tutorials .box5:hover img, #tutorials #toprated .box5:hover img, #toprated .box4:hover img, #toprated .box3:hover img, #toprated .box2:hover img {
+#toprated .box1:hover img, #toprated #tutorials .box8:hover img, #tutorials #toprated .box8:hover img, #toprated #tutorials .box7:hover img, #tutorials #toprated .box7:hover img, #toprated #tutorials .box6:hover img, #tutorials #toprated .box6:hover img, #toprated #tutorials .box5:hover img, #tutorials #toprated .box5:hover img, #toprated #preview .box8:hover img, #preview #toprated .box8:hover img, #toprated #preview .box7:hover img, #preview #toprated .box7:hover img, #toprated #preview .box6:hover img, #preview #toprated .box6:hover img, #toprated #preview .box5:hover img, #preview #toprated .box5:hover img, #toprated .box4:hover img, #toprated .box3:hover img, #toprated .box2:hover img {
   filter: brightness(80%);
 }
-#toprated .box1 img, #toprated #tutorials .box8 img, #tutorials #toprated .box8 img, #toprated #tutorials .box7 img, #tutorials #toprated .box7 img, #toprated #tutorials .box6 img, #tutorials #toprated .box6 img, #toprated #tutorials .box5 img, #tutorials #toprated .box5 img, #toprated .box4 img, #toprated .box3 img, #toprated .box2 img {
+#toprated .box1 img, #toprated #tutorials .box8 img, #tutorials #toprated .box8 img, #toprated #tutorials .box7 img, #tutorials #toprated .box7 img, #toprated #tutorials .box6 img, #tutorials #toprated .box6 img, #toprated #tutorials .box5 img, #tutorials #toprated .box5 img, #toprated #preview .box8 img, #preview #toprated .box8 img, #toprated #preview .box7 img, #preview #toprated .box7 img, #toprated #preview .box6 img, #preview #toprated .box6 img, #toprated #preview .box5 img, #preview #toprated .box5 img, #toprated .box4 img, #toprated .box3 img, #toprated .box2 img {
   padding: 20px 0px;
   transition: 0.2s ease-in-out;
 }
-#toprated .box1 .human, #toprated #tutorials .box8 .human, #tutorials #toprated .box8 .human, #toprated #tutorials .box7 .human, #tutorials #toprated .box7 .human, #toprated #tutorials .box6 .human, #tutorials #toprated .box6 .human, #toprated #tutorials .box5 .human, #tutorials #toprated .box5 .human, #toprated .box4 .human, #toprated .box3 .human, #toprated .box2 .human {
+#toprated .box1 .human, #toprated #tutorials .box8 .human, #tutorials #toprated .box8 .human, #toprated #tutorials .box7 .human, #tutorials #toprated .box7 .human, #toprated #tutorials .box6 .human, #tutorials #toprated .box6 .human, #toprated #tutorials .box5 .human, #tutorials #toprated .box5 .human, #toprated #preview .box8 .human, #preview #toprated .box8 .human, #toprated #preview .box7 .human, #preview #toprated .box7 .human, #toprated #preview .box6 .human, #preview #toprated .box6 .human, #toprated #preview .box5 .human, #preview #toprated .box5 .human, #toprated .box4 .human, #toprated .box3 .human, #toprated .box2 .human {
   border-radius: 50%;
   width: 11%;
   margin-left: 20px;
 }
-#toprated .box1 a, #toprated #tutorials .box8 a, #tutorials #toprated .box8 a, #toprated #tutorials .box7 a, #tutorials #toprated .box7 a, #toprated #tutorials .box6 a, #tutorials #toprated .box6 a, #toprated #tutorials .box5 a, #tutorials #toprated .box5 a, #toprated .box4 a, #toprated .box3 a, #toprated .box2 a {
+#toprated .box1 a, #toprated #tutorials .box8 a, #tutorials #toprated .box8 a, #toprated #tutorials .box7 a, #tutorials #toprated .box7 a, #toprated #tutorials .box6 a, #tutorials #toprated .box6 a, #toprated #tutorials .box5 a, #tutorials #toprated .box5 a, #toprated #preview .box8 a, #preview #toprated .box8 a, #toprated #preview .box7 a, #preview #toprated .box7 a, #toprated #preview .box6 a, #preview #toprated .box6 a, #toprated #preview .box5 a, #preview #toprated .box5 a, #toprated .box4 a, #toprated .box3 a, #toprated .box2 a {
   background-color: #f1faf9;
   color: #3bbca7;
   padding: 5px 10px;
@@ -384,24 +384,24 @@
   font-weight: 500;
   font-size: 12px;
 }
-#toprated .box1 a:hover, #toprated #tutorials .box8 a:hover, #tutorials #toprated .box8 a:hover, #toprated #tutorials .box7 a:hover, #tutorials #toprated .box7 a:hover, #toprated #tutorials .box6 a:hover, #tutorials #toprated .box6 a:hover, #toprated #tutorials .box5 a:hover, #tutorials #toprated .box5 a:hover, #toprated .box4 a:hover, #toprated .box3 a:hover, #toprated .box2 a:hover {
+#toprated .box1 a:hover, #toprated #tutorials .box8 a:hover, #tutorials #toprated .box8 a:hover, #toprated #tutorials .box7 a:hover, #tutorials #toprated .box7 a:hover, #toprated #tutorials .box6 a:hover, #tutorials #toprated .box6 a:hover, #toprated #tutorials .box5 a:hover, #tutorials #toprated .box5 a:hover, #toprated #preview .box8 a:hover, #preview #toprated .box8 a:hover, #toprated #preview .box7 a:hover, #preview #toprated .box7 a:hover, #toprated #preview .box6 a:hover, #preview #toprated .box6 a:hover, #toprated #preview .box5 a:hover, #preview #toprated .box5 a:hover, #toprated .box4 a:hover, #toprated .box3 a:hover, #toprated .box2 a:hover {
   background-color: #3bbca7;
   color: white;
 }
-#toprated .box1 .span1, #toprated #tutorials .box8 .span1, #tutorials #toprated .box8 .span1, #toprated #tutorials .box7 .span1, #tutorials #toprated .box7 .span1, #toprated #tutorials .box6 .span1, #tutorials #toprated .box6 .span1, #toprated #tutorials .box5 .span1, #tutorials #toprated .box5 .span1, #toprated .box4 .span1, #toprated .box3 .span1, #toprated .box2 .span1 {
+#toprated .box1 .span1, #toprated #tutorials .box8 .span1, #tutorials #toprated .box8 .span1, #toprated #tutorials .box7 .span1, #tutorials #toprated .box7 .span1, #toprated #tutorials .box6 .span1, #tutorials #toprated .box6 .span1, #toprated #tutorials .box5 .span1, #tutorials #toprated .box5 .span1, #toprated #preview .box8 .span1, #preview #toprated .box8 .span1, #toprated #preview .box7 .span1, #preview #toprated .box7 .span1, #toprated #preview .box6 .span1, #preview #toprated .box6 .span1, #toprated #preview .box5 .span1, #preview #toprated .box5 .span1, #toprated .box4 .span1, #toprated .box3 .span1, #toprated .box2 .span1 {
   float: right;
   margin-top: 2px;
   margin-right: 20px;
   color: #072f60;
   font-weight: bold;
 }
-#toprated .box1 .span2, #toprated #tutorials .box8 .span2, #tutorials #toprated .box8 .span2, #toprated #tutorials .box7 .span2, #tutorials #toprated .box7 .span2, #toprated #tutorials .box6 .span2, #tutorials #toprated .box6 .span2, #toprated #tutorials .box5 .span2, #tutorials #toprated .box5 .span2, #toprated .box4 .span2, #toprated .box3 .span2, #toprated .box2 .span2 {
+#toprated .box1 .span2, #toprated #tutorials .box8 .span2, #tutorials #toprated .box8 .span2, #toprated #tutorials .box7 .span2, #tutorials #toprated .box7 .span2, #toprated #tutorials .box6 .span2, #tutorials #toprated .box6 .span2, #toprated #tutorials .box5 .span2, #tutorials #toprated .box5 .span2, #toprated #preview .box8 .span2, #preview #toprated .box8 .span2, #toprated #preview .box7 .span2, #preview #toprated .box7 .span2, #toprated #preview .box6 .span2, #preview #toprated .box6 .span2, #toprated #preview .box5 .span2, #preview #toprated .box5 .span2, #toprated .box4 .span2, #toprated .box3 .span2, #toprated .box2 .span2 {
   color: grey;
 }
-#toprated .box1 .span3, #toprated #tutorials .box8 .span3, #tutorials #toprated .box8 .span3, #toprated #tutorials .box7 .span3, #tutorials #toprated .box7 .span3, #toprated #tutorials .box6 .span3, #tutorials #toprated .box6 .span3, #toprated #tutorials .box5 .span3, #tutorials #toprated .box5 .span3, #toprated .box4 .span3, #toprated .box3 .span3, #toprated .box2 .span3 {
+#toprated .box1 .span3, #toprated #tutorials .box8 .span3, #tutorials #toprated .box8 .span3, #toprated #tutorials .box7 .span3, #tutorials #toprated .box7 .span3, #toprated #tutorials .box6 .span3, #tutorials #toprated .box6 .span3, #toprated #tutorials .box5 .span3, #tutorials #toprated .box5 .span3, #toprated #preview .box8 .span3, #preview #toprated .box8 .span3, #toprated #preview .box7 .span3, #preview #toprated .box7 .span3, #toprated #preview .box6 .span3, #preview #toprated .box6 .span3, #toprated #preview .box5 .span3, #preview #toprated .box5 .span3, #toprated .box4 .span3, #toprated .box3 .span3, #toprated .box2 .span3 {
   color: gray;
 }
-#toprated .box1 h6, #toprated #tutorials .box8 h6, #tutorials #toprated .box8 h6, #toprated #tutorials .box7 h6, #tutorials #toprated .box7 h6, #toprated #tutorials .box6 h6, #tutorials #toprated .box6 h6, #toprated #tutorials .box5 h6, #tutorials #toprated .box5 h6, #toprated .box4 h6, #toprated .box3 h6, #toprated .box2 h6 {
+#toprated .box1 h6, #toprated #tutorials .box8 h6, #tutorials #toprated .box8 h6, #toprated #tutorials .box7 h6, #tutorials #toprated .box7 h6, #toprated #tutorials .box6 h6, #tutorials #toprated .box6 h6, #toprated #tutorials .box5 h6, #tutorials #toprated .box5 h6, #toprated #preview .box8 h6, #preview #toprated .box8 h6, #toprated #preview .box7 h6, #preview #toprated .box7 h6, #toprated #preview .box6 h6, #preview #toprated .box6 h6, #toprated #preview .box5 h6, #preview #toprated .box5 h6, #toprated .box4 h6, #toprated .box3 h6, #toprated .box2 h6 {
   margin-top: 20px;
   font-weight: bold;
   color: #072f60;
@@ -409,18 +409,18 @@
   margin-left: 20px;
   cursor: pointer;
 }
-#toprated .box1 h6:hover, #toprated #tutorials .box8 h6:hover, #tutorials #toprated .box8 h6:hover, #toprated #tutorials .box7 h6:hover, #tutorials #toprated .box7 h6:hover, #toprated #tutorials .box6 h6:hover, #tutorials #toprated .box6 h6:hover, #toprated #tutorials .box5 h6:hover, #tutorials #toprated .box5 h6:hover, #toprated .box4 h6:hover, #toprated .box3 h6:hover, #toprated .box2 h6:hover {
+#toprated .box1 h6:hover, #toprated #tutorials .box8 h6:hover, #tutorials #toprated .box8 h6:hover, #toprated #tutorials .box7 h6:hover, #tutorials #toprated .box7 h6:hover, #toprated #tutorials .box6 h6:hover, #tutorials #toprated .box6 h6:hover, #toprated #tutorials .box5 h6:hover, #tutorials #toprated .box5 h6:hover, #toprated #preview .box8 h6:hover, #preview #toprated .box8 h6:hover, #toprated #preview .box7 h6:hover, #preview #toprated .box7 h6:hover, #toprated #preview .box6 h6:hover, #preview #toprated .box6 h6:hover, #toprated #preview .box5 h6:hover, #preview #toprated .box5 h6:hover, #toprated .box4 h6:hover, #toprated .box3 h6:hover, #toprated .box2 h6:hover {
   color: #3bbca7;
 }
-#toprated .box1 .fa-user, #toprated #tutorials .box8 .fa-user, #tutorials #toprated .box8 .fa-user, #toprated #tutorials .box7 .fa-user, #tutorials #toprated .box7 .fa-user, #toprated #tutorials .box6 .fa-user, #tutorials #toprated .box6 .fa-user, #toprated #tutorials .box5 .fa-user, #tutorials #toprated .box5 .fa-user, #toprated .box4 .fa-user, #toprated .box3 .fa-user, #toprated .box2 .fa-user {
-  color: #3bbca7;
-  margin-left: 5px;
-}
-#toprated .box1 .fa-book, #toprated #tutorials .box8 .fa-book, #tutorials #toprated .box8 .fa-book, #toprated #tutorials .box7 .fa-book, #tutorials #toprated .box7 .fa-book, #toprated #tutorials .box6 .fa-book, #tutorials #toprated .box6 .fa-book, #toprated #tutorials .box5 .fa-book, #tutorials #toprated .box5 .fa-book, #toprated .box4 .fa-book, #toprated .box3 .fa-book, #toprated .box2 .fa-book {
+#toprated .box1 .fa-user, #toprated #tutorials .box8 .fa-user, #tutorials #toprated .box8 .fa-user, #toprated #tutorials .box7 .fa-user, #tutorials #toprated .box7 .fa-user, #toprated #tutorials .box6 .fa-user, #tutorials #toprated .box6 .fa-user, #toprated #tutorials .box5 .fa-user, #tutorials #toprated .box5 .fa-user, #toprated #preview .box8 .fa-user, #preview #toprated .box8 .fa-user, #toprated #preview .box7 .fa-user, #preview #toprated .box7 .fa-user, #toprated #preview .box6 .fa-user, #preview #toprated .box6 .fa-user, #toprated #preview .box5 .fa-user, #preview #toprated .box5 .fa-user, #toprated .box4 .fa-user, #toprated .box3 .fa-user, #toprated .box2 .fa-user {
   color: #3bbca7;
   margin-left: 5px;
 }
-#toprated .box1 .fa-star, #toprated #tutorials .box8 .fa-star, #tutorials #toprated .box8 .fa-star, #toprated #tutorials .box7 .fa-star, #tutorials #toprated .box7 .fa-star, #toprated #tutorials .box6 .fa-star, #tutorials #toprated .box6 .fa-star, #toprated #tutorials .box5 .fa-star, #tutorials #toprated .box5 .fa-star, #toprated .box4 .fa-star, #toprated .box3 .fa-star, #toprated .box2 .fa-star {
+#toprated .box1 .fa-book, #toprated #tutorials .box8 .fa-book, #tutorials #toprated .box8 .fa-book, #toprated #tutorials .box7 .fa-book, #tutorials #toprated .box7 .fa-book, #toprated #tutorials .box6 .fa-book, #tutorials #toprated .box6 .fa-book, #toprated #tutorials .box5 .fa-book, #tutorials #toprated .box5 .fa-book, #toprated #preview .box8 .fa-book, #preview #toprated .box8 .fa-book, #toprated #preview .box7 .fa-book, #preview #toprated .box7 .fa-book, #toprated #preview .box6 .fa-book, #preview #toprated .box6 .fa-book, #toprated #preview .box5 .fa-book, #preview #toprated .box5 .fa-book, #toprated .box4 .fa-book, #toprated .box3 .fa-book, #toprated .box2 .fa-book {
+  color: #3bbca7;
+  margin-left: 5px;
+}
+#toprated .box1 .fa-star, #toprated #tutorials .box8 .fa-star, #tutorials #toprated .box8 .fa-star, #toprated #tutorials .box7 .fa-star, #tutorials #toprated .box7 .fa-star, #toprated #tutorials .box6 .fa-star, #tutorials #toprated .box6 .fa-star, #toprated #tutorials .box5 .fa-star, #tutorials #toprated .box5 .fa-star, #toprated #preview .box8 .fa-star, #preview #toprated .box8 .fa-star, #toprated #preview .box7 .fa-star, #preview #toprated .box7 .fa-star, #toprated #preview .box6 .fa-star, #preview #toprated .box6 .fa-star, #toprated #preview .box5 .fa-star, #preview #toprated .box5 .fa-star, #toprated .box4 .fa-star, #toprated .box3 .fa-star, #toprated .box2 .fa-star {
   color: #ffb60a;
   font-size: 14px;
   padding-bottom: 20px;
@@ -711,7 +711,7 @@
 }
 #footer .box ul li {
   padding: 5px 0px;
-  font-size: 18px;
+  font-size: 14px;
   display: inline-block;
   cursor: pointer;
 }
@@ -721,6 +721,9 @@
 #footer .box i {
   margin: 0px 5px;
   color: #37ab9d;
+}
+#footer p {
+  font-size: 14px;
 }
 
 @media (max-width: 1365px) {
@@ -756,6 +759,9 @@
   #chiken .box img {
     display: none;
   }
+  #explore .text .buttonv1 {
+    display: none;
+  }
 }
 @media (min-width: 1367px) and (max-width: 2160px) {
   #header {
@@ -778,7 +784,333 @@
   #enroll .box .iconbox i {
     margin-left: 190px;
   }
+  #explore .text .buttonv1 {
+    width: 8%;
+  }
 }
+#level {
+  background-color: #f6f7f9;
+}
+#level .box {
+  margin-top: 100px;
+}
+#level .box .p1 {
+  color: #3bbca7;
+  font-weight: bold;
+}
+#level .box h1 {
+  color: #072f60;
+}
+#level .box .p2 {
+  color: gray;
+}
+#level .box a {
+  background-color: #3bbca7;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+  transition: 0.2s ease-in-out;
+  font-weight: 500;
+}
+#level .box a:hover {
+  background-color: #072f60;
+}
+
+#over {
+  background-color: #072f60;
+  padding: 20px 0px;
+}
+#over .box span {
+  color: white;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+#explore {
+  background-color: #f6f7f9;
+  margin-top: 100px;
+}
+#explore h2 {
+  padding: 50px 0px;
+  color: #072f60;
+  font-weight: bold;
+}
+#explore .buttonv1 {
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 40px;
+  border: 1px solid #3bbca7;
+  color: #3bbca7;
+  height: 40px;
+  padding: 5px;
+  width: 10%;
+  text-align: center;
+  transition: 0.2s ease-in-out;
+  font-weight: 500;
+}
+#explore .buttonv1:hover {
+  background-color: #3bbca7;
+  color: white;
+}
+#explore .box {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+#explore .box:hover {
+  background-color: #072f60;
+}
+#explore .box:hover span {
+  color: white;
+}
+#explore .box img {
+  width: 20%;
+}
+#explore .box span {
+  color: #072f60;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 0px 10px;
+}
+
+#preview {
+  margin-top: 50px;
+}
+#preview a {
+  display: inline-block;
+  background-color: #3bbca7;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+  transition: 0.2s ease-in-out;
+  font-weight: 500;
+}
+#preview a:hover {
+  background-color: #072f60;
+}
+#preview h1 {
+  color: #072f60;
+}
+#preview ul li {
+  padding: 0px 20px;
+  color: #072f60;
+  font-weight: bold;
+  font-size: 13px;
+  cursor: pointer;
+}
+#preview ul li:first-child {
+  color: #3bbca7;
+}
+#preview .box1, #preview .box8, #preview .box7, #preview .box6, #preview .box5, #preview .box4, #preview .box3, #preview .box2 {
+  font-family: "Heebo", sans-serif;
+  box-shadow: 0px 10px 10px rgba(102, 102, 102, 0.1725490196);
+  border-radius: 5px;
+  transition: 0.2s ease-in-out;
+  margin: 20px 0px;
+}
+#preview .box1:hover img, #preview .box8:hover img, #preview .box7:hover img, #preview .box6:hover img, #preview .box5:hover img, #preview .box4:hover img, #preview .box3:hover img, #preview .box2:hover img {
+  filter: brightness(80%);
+}
+#preview .box1 img, #preview .box8 img, #preview .box7 img, #preview .box6 img, #preview .box5 img, #preview .box4 img, #preview .box3 img, #preview .box2 img {
+  padding: 20px 0px;
+  transition: 0.2s ease-in-out;
+}
+#preview .box1 .human, #preview .box8 .human, #preview .box7 .human, #preview .box6 .human, #preview .box5 .human, #preview .box4 .human, #preview .box3 .human, #preview .box2 .human {
+  border-radius: 50%;
+  width: 11%;
+  margin-left: 20px;
+}
+#preview .box1 a, #preview .box8 a, #preview .box7 a, #preview .box6 a, #preview .box5 a, #preview .box4 a, #preview .box3 a, #preview .box2 a {
+  background-color: #f1faf9;
+  color: #3bbca7;
+  padding: 5px 10px;
+  margin-left: 20px;
+  transition: 0.2s ease-in-out;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+}
+#preview .box1 a:hover, #preview .box8 a:hover, #preview .box7 a:hover, #preview .box6 a:hover, #preview .box5 a:hover, #preview .box4 a:hover, #preview .box3 a:hover, #preview .box2 a:hover {
+  background-color: #3bbca7;
+  color: white;
+}
+#preview .box1 .span1, #preview .box8 .span1, #preview .box7 .span1, #preview .box6 .span1, #preview .box5 .span1, #preview .box4 .span1, #preview .box3 .span1, #preview .box2 .span1 {
+  float: right;
+  margin-top: 2px;
+  margin-right: 20px;
+  color: #072f60;
+  font-weight: bold;
+}
+#preview .box1 .span2, #preview .box8 .span2, #preview .box7 .span2, #preview .box6 .span2, #preview .box5 .span2, #preview .box4 .span2, #preview .box3 .span2, #preview .box2 .span2 {
+  color: grey;
+}
+#preview .box1 .span3, #preview .box8 .span3, #preview .box7 .span3, #preview .box6 .span3, #preview .box5 .span3, #preview .box4 .span3, #preview .box3 .span3, #preview .box2 .span3 {
+  color: gray;
+}
+#preview .box1 h6, #preview .box8 h6, #preview .box7 h6, #preview .box6 h6, #preview .box5 h6, #preview .box4 h6, #preview .box3 h6, #preview .box2 h6 {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #072f60;
+  font-size: 18px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+#preview .box1 h6:hover, #preview .box8 h6:hover, #preview .box7 h6:hover, #preview .box6 h6:hover, #preview .box5 h6:hover, #preview .box4 h6:hover, #preview .box3 h6:hover, #preview .box2 h6:hover {
+  color: #3bbca7;
+}
+#preview .box1 .fa-user, #preview .box8 .fa-user, #preview .box7 .fa-user, #preview .box6 .fa-user, #preview .box5 .fa-user, #preview .box4 .fa-user, #preview .box3 .fa-user, #preview .box2 .fa-user {
+  color: #3bbca7;
+  margin-left: 5px;
+}
+#preview .box1 .fa-book, #preview .box8 .fa-book, #preview .box7 .fa-book, #preview .box6 .fa-book, #preview .box5 .fa-book, #preview .box4 .fa-book, #preview .box3 .fa-book, #preview .box2 .fa-book {
+  color: #3bbca7;
+  margin-left: 5px;
+}
+#preview .box1 .fa-star, #preview .box8 .fa-star, #preview .box7 .fa-star, #preview .box6 .fa-star, #preview .box5 .fa-star, #preview .box4 .fa-star, #preview .box3 .fa-star, #preview .box2 .fa-star {
+  color: #ffb60a;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+#thousands {
+  background-color: #f6f7f9;
+  margin-top: 50px;
+}
+#thousands .textbox {
+  margin-top: 50px;
+}
+#thousands h2 {
+  color: #072f60;
+}
+#thousands span {
+  color: gray;
+  margin: 5px 0px;
+  display: inline-block;
+}
+#thousands i {
+  color: #3bbca7;
+}
+#thousands a {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #3bbca7;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: white;
+  transition: 0.2s ease-in-out;
+  font-weight: 500;
+}
+#thousands a:hover {
+  background-color: #072f60;
+}
+
+#take {
+  margin: 50px 0px;
+}
+#take h2 {
+  color: #072f60;
+}
+#take .box {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 50px;
+}
+#take .box:hover img {
+  transform: scale(1.1);
+}
+#take .box img {
+  filter: brightness(70%);
+  width: 90%;
+  height: 40vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+  transition: 0.5s ease-in-out;
+}
+#take .box i {
+  color: #3bbca7;
+  border-radius: 50%;
+  background-color: white;
+  padding: 10px 12px;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  cursor: pointer;
+}
+#take .box p {
+  color: white;
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  font-weight: bold;
+  transition: 0.2s ease-in-out;
+}
+#take .box p:hover {
+  color: #3bbca7;
+}
+
+#stories h2 {
+  color: #143A68;
+  margin: 20px 0px;
+}
+#stories .background .sliderv5 {
+  padding-top: 90px;
+  margin: auto;
+  width: 70%;
+  height: 90vh;
+}
+#stories .background .sliderv5 swiper-container {
+  width: 100%;
+  height: 100%;
+}
+#stories .background .sliderv5 swiper-container swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#brands {
+  margin-top: 100px;
+}
+#brands h5 {
+  color: #143A68;
+}
+#brands h5 span {
+  color: #3bbca7;
+}
+
+#letters {
+  background-color: #3BBCA7;
+  width: 100%;
+  padding: 50px 0px;
+  margin-top: 50px;
+}
+#letters .box {
+  color: white;
+}
+#letters .box input {
+  width: 60%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+#letters .box a {
+  text-decoration: none;
+  background-color: #072f60;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
 #platform {
   background-color: #e9f2f7;
   padding-top: 50px;
@@ -1357,25 +1689,25 @@
   color: #072f60;
   margin: 20px 0px;
 }
-#popular .box1, #popular .box4, #popular .box3, #popular .box2, #popular #tutorials .box5, #tutorials #popular .box5, #popular #tutorials .box6, #tutorials #popular .box6, #popular #tutorials .box7, #tutorials #popular .box7, #popular #tutorials .box8, #tutorials #popular .box8 {
+#popular .box1, #popular .box4, #popular .box3, #popular .box2, #popular #preview .box5, #preview #popular .box5, #popular #preview .box6, #preview #popular .box6, #popular #preview .box7, #preview #popular .box7, #popular #preview .box8, #preview #popular .box8, #popular #tutorials .box5, #tutorials #popular .box5, #popular #tutorials .box6, #tutorials #popular .box6, #popular #tutorials .box7, #tutorials #popular .box7, #popular #tutorials .box8, #tutorials #popular .box8 {
   font-family: "Heebo", sans-serif;
   box-shadow: 0px 10px 10px rgba(102, 102, 102, 0.1725490196);
   border-radius: 5px;
   transition: 0.2s ease-in-out;
 }
-#popular .box1:hover img, #popular .box4:hover img, #popular .box3:hover img, #popular .box2:hover img, #popular #tutorials .box5:hover img, #tutorials #popular .box5:hover img, #popular #tutorials .box6:hover img, #tutorials #popular .box6:hover img, #popular #tutorials .box7:hover img, #tutorials #popular .box7:hover img, #popular #tutorials .box8:hover img, #tutorials #popular .box8:hover img {
+#popular .box1:hover img, #popular .box4:hover img, #popular .box3:hover img, #popular .box2:hover img, #popular #preview .box5:hover img, #preview #popular .box5:hover img, #popular #preview .box6:hover img, #preview #popular .box6:hover img, #popular #preview .box7:hover img, #preview #popular .box7:hover img, #popular #preview .box8:hover img, #preview #popular .box8:hover img, #popular #tutorials .box5:hover img, #tutorials #popular .box5:hover img, #popular #tutorials .box6:hover img, #tutorials #popular .box6:hover img, #popular #tutorials .box7:hover img, #tutorials #popular .box7:hover img, #popular #tutorials .box8:hover img, #tutorials #popular .box8:hover img {
   filter: brightness(80%);
 }
-#popular .box1 img, #popular .box4 img, #popular .box3 img, #popular .box2 img, #popular #tutorials .box5 img, #tutorials #popular .box5 img, #popular #tutorials .box6 img, #tutorials #popular .box6 img, #popular #tutorials .box7 img, #tutorials #popular .box7 img, #popular #tutorials .box8 img, #tutorials #popular .box8 img {
+#popular .box1 img, #popular .box4 img, #popular .box3 img, #popular .box2 img, #popular #preview .box5 img, #preview #popular .box5 img, #popular #preview .box6 img, #preview #popular .box6 img, #popular #preview .box7 img, #preview #popular .box7 img, #popular #preview .box8 img, #preview #popular .box8 img, #popular #tutorials .box5 img, #tutorials #popular .box5 img, #popular #tutorials .box6 img, #tutorials #popular .box6 img, #popular #tutorials .box7 img, #tutorials #popular .box7 img, #popular #tutorials .box8 img, #tutorials #popular .box8 img {
   padding: 20px 0px;
   transition: 0.2s ease-in-out;
 }
-#popular .box1 .human, #popular .box4 .human, #popular .box3 .human, #popular .box2 .human, #popular #tutorials .box5 .human, #tutorials #popular .box5 .human, #popular #tutorials .box6 .human, #tutorials #popular .box6 .human, #popular #tutorials .box7 .human, #tutorials #popular .box7 .human, #popular #tutorials .box8 .human, #tutorials #popular .box8 .human {
+#popular .box1 .human, #popular .box4 .human, #popular .box3 .human, #popular .box2 .human, #popular #preview .box5 .human, #preview #popular .box5 .human, #popular #preview .box6 .human, #preview #popular .box6 .human, #popular #preview .box7 .human, #preview #popular .box7 .human, #popular #preview .box8 .human, #preview #popular .box8 .human, #popular #tutorials .box5 .human, #tutorials #popular .box5 .human, #popular #tutorials .box6 .human, #tutorials #popular .box6 .human, #popular #tutorials .box7 .human, #tutorials #popular .box7 .human, #popular #tutorials .box8 .human, #tutorials #popular .box8 .human {
   border-radius: 50%;
   width: 11%;
   margin-left: 20px;
 }
-#popular .box1 a, #popular .box4 a, #popular .box3 a, #popular .box2 a, #popular #tutorials .box5 a, #tutorials #popular .box5 a, #popular #tutorials .box6 a, #tutorials #popular .box6 a, #popular #tutorials .box7 a, #tutorials #popular .box7 a, #popular #tutorials .box8 a, #tutorials #popular .box8 a {
+#popular .box1 a, #popular .box4 a, #popular .box3 a, #popular .box2 a, #popular #preview .box5 a, #preview #popular .box5 a, #popular #preview .box6 a, #preview #popular .box6 a, #popular #preview .box7 a, #preview #popular .box7 a, #popular #preview .box8 a, #preview #popular .box8 a, #popular #tutorials .box5 a, #tutorials #popular .box5 a, #popular #tutorials .box6 a, #tutorials #popular .box6 a, #popular #tutorials .box7 a, #tutorials #popular .box7 a, #popular #tutorials .box8 a, #tutorials #popular .box8 a {
   background-color: #f1faf9;
   color: orange;
   padding: 5px 10px;
@@ -1386,24 +1718,24 @@
   font-weight: bold;
   font-size: 12px;
 }
-#popular .box1 a:hover, #popular .box4 a:hover, #popular .box3 a:hover, #popular .box2 a:hover, #popular #tutorials .box5 a:hover, #tutorials #popular .box5 a:hover, #popular #tutorials .box6 a:hover, #tutorials #popular .box6 a:hover, #popular #tutorials .box7 a:hover, #tutorials #popular .box7 a:hover, #popular #tutorials .box8 a:hover, #tutorials #popular .box8 a:hover {
+#popular .box1 a:hover, #popular .box4 a:hover, #popular .box3 a:hover, #popular .box2 a:hover, #popular #preview .box5 a:hover, #preview #popular .box5 a:hover, #popular #preview .box6 a:hover, #preview #popular .box6 a:hover, #popular #preview .box7 a:hover, #preview #popular .box7 a:hover, #popular #preview .box8 a:hover, #preview #popular .box8 a:hover, #popular #tutorials .box5 a:hover, #tutorials #popular .box5 a:hover, #popular #tutorials .box6 a:hover, #tutorials #popular .box6 a:hover, #popular #tutorials .box7 a:hover, #tutorials #popular .box7 a:hover, #popular #tutorials .box8 a:hover, #tutorials #popular .box8 a:hover {
   background-color: orange;
   color: white;
 }
-#popular .box1 .span1, #popular .box4 .span1, #popular .box3 .span1, #popular .box2 .span1, #popular #tutorials .box5 .span1, #tutorials #popular .box5 .span1, #popular #tutorials .box6 .span1, #tutorials #popular .box6 .span1, #popular #tutorials .box7 .span1, #tutorials #popular .box7 .span1, #popular #tutorials .box8 .span1, #tutorials #popular .box8 .span1 {
+#popular .box1 .span1, #popular .box4 .span1, #popular .box3 .span1, #popular .box2 .span1, #popular #preview .box5 .span1, #preview #popular .box5 .span1, #popular #preview .box6 .span1, #preview #popular .box6 .span1, #popular #preview .box7 .span1, #preview #popular .box7 .span1, #popular #preview .box8 .span1, #preview #popular .box8 .span1, #popular #tutorials .box5 .span1, #tutorials #popular .box5 .span1, #popular #tutorials .box6 .span1, #tutorials #popular .box6 .span1, #popular #tutorials .box7 .span1, #tutorials #popular .box7 .span1, #popular #tutorials .box8 .span1, #tutorials #popular .box8 .span1 {
   float: right;
   margin-top: 2px;
   margin-right: 20px;
   color: #072f60;
   font-weight: bold;
 }
-#popular .box1 .span2, #popular .box4 .span2, #popular .box3 .span2, #popular .box2 .span2, #popular #tutorials .box5 .span2, #tutorials #popular .box5 .span2, #popular #tutorials .box6 .span2, #tutorials #popular .box6 .span2, #popular #tutorials .box7 .span2, #tutorials #popular .box7 .span2, #popular #tutorials .box8 .span2, #tutorials #popular .box8 .span2 {
+#popular .box1 .span2, #popular .box4 .span2, #popular .box3 .span2, #popular .box2 .span2, #popular #preview .box5 .span2, #preview #popular .box5 .span2, #popular #preview .box6 .span2, #preview #popular .box6 .span2, #popular #preview .box7 .span2, #preview #popular .box7 .span2, #popular #preview .box8 .span2, #preview #popular .box8 .span2, #popular #tutorials .box5 .span2, #tutorials #popular .box5 .span2, #popular #tutorials .box6 .span2, #tutorials #popular .box6 .span2, #popular #tutorials .box7 .span2, #tutorials #popular .box7 .span2, #popular #tutorials .box8 .span2, #tutorials #popular .box8 .span2 {
   color: grey;
 }
-#popular .box1 .span3, #popular .box4 .span3, #popular .box3 .span3, #popular .box2 .span3, #popular #tutorials .box5 .span3, #tutorials #popular .box5 .span3, #popular #tutorials .box6 .span3, #tutorials #popular .box6 .span3, #popular #tutorials .box7 .span3, #tutorials #popular .box7 .span3, #popular #tutorials .box8 .span3, #tutorials #popular .box8 .span3 {
+#popular .box1 .span3, #popular .box4 .span3, #popular .box3 .span3, #popular .box2 .span3, #popular #preview .box5 .span3, #preview #popular .box5 .span3, #popular #preview .box6 .span3, #preview #popular .box6 .span3, #popular #preview .box7 .span3, #preview #popular .box7 .span3, #popular #preview .box8 .span3, #preview #popular .box8 .span3, #popular #tutorials .box5 .span3, #tutorials #popular .box5 .span3, #popular #tutorials .box6 .span3, #tutorials #popular .box6 .span3, #popular #tutorials .box7 .span3, #tutorials #popular .box7 .span3, #popular #tutorials .box8 .span3, #tutorials #popular .box8 .span3 {
   color: gray;
 }
-#popular .box1 h6, #popular .box4 h6, #popular .box3 h6, #popular .box2 h6, #popular #tutorials .box5 h6, #tutorials #popular .box5 h6, #popular #tutorials .box6 h6, #tutorials #popular .box6 h6, #popular #tutorials .box7 h6, #tutorials #popular .box7 h6, #popular #tutorials .box8 h6, #tutorials #popular .box8 h6 {
+#popular .box1 h6, #popular .box4 h6, #popular .box3 h6, #popular .box2 h6, #popular #preview .box5 h6, #preview #popular .box5 h6, #popular #preview .box6 h6, #preview #popular .box6 h6, #popular #preview .box7 h6, #preview #popular .box7 h6, #popular #preview .box8 h6, #preview #popular .box8 h6, #popular #tutorials .box5 h6, #tutorials #popular .box5 h6, #popular #tutorials .box6 h6, #tutorials #popular .box6 h6, #popular #tutorials .box7 h6, #tutorials #popular .box7 h6, #popular #tutorials .box8 h6, #tutorials #popular .box8 h6 {
   margin-top: 20px;
   font-weight: bold;
   color: #072f60;
@@ -1411,18 +1743,18 @@
   margin-left: 20px;
   cursor: pointer;
 }
-#popular .box1 h6:hover, #popular .box4 h6:hover, #popular .box3 h6:hover, #popular .box2 h6:hover, #popular #tutorials .box5 h6:hover, #tutorials #popular .box5 h6:hover, #popular #tutorials .box6 h6:hover, #tutorials #popular .box6 h6:hover, #popular #tutorials .box7 h6:hover, #tutorials #popular .box7 h6:hover, #popular #tutorials .box8 h6:hover, #tutorials #popular .box8 h6:hover {
+#popular .box1 h6:hover, #popular .box4 h6:hover, #popular .box3 h6:hover, #popular .box2 h6:hover, #popular #preview .box5 h6:hover, #preview #popular .box5 h6:hover, #popular #preview .box6 h6:hover, #preview #popular .box6 h6:hover, #popular #preview .box7 h6:hover, #preview #popular .box7 h6:hover, #popular #preview .box8 h6:hover, #preview #popular .box8 h6:hover, #popular #tutorials .box5 h6:hover, #tutorials #popular .box5 h6:hover, #popular #tutorials .box6 h6:hover, #tutorials #popular .box6 h6:hover, #popular #tutorials .box7 h6:hover, #tutorials #popular .box7 h6:hover, #popular #tutorials .box8 h6:hover, #tutorials #popular .box8 h6:hover {
   color: orange;
 }
-#popular .box1 .fa-user, #popular .box4 .fa-user, #popular .box3 .fa-user, #popular .box2 .fa-user, #popular #tutorials .box5 .fa-user, #tutorials #popular .box5 .fa-user, #popular #tutorials .box6 .fa-user, #tutorials #popular .box6 .fa-user, #popular #tutorials .box7 .fa-user, #tutorials #popular .box7 .fa-user, #popular #tutorials .box8 .fa-user, #tutorials #popular .box8 .fa-user {
-  color: orange;
-  margin-left: 5px;
-}
-#popular .box1 .fa-book, #popular .box4 .fa-book, #popular .box3 .fa-book, #popular .box2 .fa-book, #popular #tutorials .box5 .fa-book, #tutorials #popular .box5 .fa-book, #popular #tutorials .box6 .fa-book, #tutorials #popular .box6 .fa-book, #popular #tutorials .box7 .fa-book, #tutorials #popular .box7 .fa-book, #popular #tutorials .box8 .fa-book, #tutorials #popular .box8 .fa-book {
+#popular .box1 .fa-user, #popular .box4 .fa-user, #popular .box3 .fa-user, #popular .box2 .fa-user, #popular #preview .box5 .fa-user, #preview #popular .box5 .fa-user, #popular #preview .box6 .fa-user, #preview #popular .box6 .fa-user, #popular #preview .box7 .fa-user, #preview #popular .box7 .fa-user, #popular #preview .box8 .fa-user, #preview #popular .box8 .fa-user, #popular #tutorials .box5 .fa-user, #tutorials #popular .box5 .fa-user, #popular #tutorials .box6 .fa-user, #tutorials #popular .box6 .fa-user, #popular #tutorials .box7 .fa-user, #tutorials #popular .box7 .fa-user, #popular #tutorials .box8 .fa-user, #tutorials #popular .box8 .fa-user {
   color: orange;
   margin-left: 5px;
 }
-#popular .box1 .fa-star, #popular .box4 .fa-star, #popular .box3 .fa-star, #popular .box2 .fa-star, #popular #tutorials .box5 .fa-star, #tutorials #popular .box5 .fa-star, #popular #tutorials .box6 .fa-star, #tutorials #popular .box6 .fa-star, #popular #tutorials .box7 .fa-star, #tutorials #popular .box7 .fa-star, #popular #tutorials .box8 .fa-star, #tutorials #popular .box8 .fa-star {
+#popular .box1 .fa-book, #popular .box4 .fa-book, #popular .box3 .fa-book, #popular .box2 .fa-book, #popular #preview .box5 .fa-book, #preview #popular .box5 .fa-book, #popular #preview .box6 .fa-book, #preview #popular .box6 .fa-book, #popular #preview .box7 .fa-book, #preview #popular .box7 .fa-book, #popular #preview .box8 .fa-book, #preview #popular .box8 .fa-book, #popular #tutorials .box5 .fa-book, #tutorials #popular .box5 .fa-book, #popular #tutorials .box6 .fa-book, #tutorials #popular .box6 .fa-book, #popular #tutorials .box7 .fa-book, #tutorials #popular .box7 .fa-book, #popular #tutorials .box8 .fa-book, #tutorials #popular .box8 .fa-book {
+  color: orange;
+  margin-left: 5px;
+}
+#popular .box1 .fa-star, #popular .box4 .fa-star, #popular .box3 .fa-star, #popular .box2 .fa-star, #popular #preview .box5 .fa-star, #preview #popular .box5 .fa-star, #popular #preview .box6 .fa-star, #preview #popular .box6 .fa-star, #popular #preview .box7 .fa-star, #preview #popular .box7 .fa-star, #popular #preview .box8 .fa-star, #preview #popular .box8 .fa-star, #popular #tutorials .box5 .fa-star, #tutorials #popular .box5 .fa-star, #popular #tutorials .box6 .fa-star, #tutorials #popular .box6 .fa-star, #popular #tutorials .box7 .fa-star, #tutorials #popular .box7 .fa-star, #popular #tutorials .box8 .fa-star, #tutorials #popular .box8 .fa-star {
   color: orange;
   font-size: 14px;
   padding-bottom: 20px;
@@ -1673,10 +2005,10 @@
 }
 #footerv5 .box ul li {
   padding: 5px 0px;
-  font-size: 18px;
   display: inline-block;
   cursor: pointer;
   color: gray;
+  font-size: 14px;
 }
 #footerv5 .box ul li:hover {
   color: orange;
@@ -1688,4 +2020,5 @@
 }
 #footerv5 .box p {
   color: gray;
+  font-size: 14px;
 }/*# sourceMappingURL=style.css.map */

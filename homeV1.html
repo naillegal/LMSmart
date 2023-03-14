@@ -11,7 +11,9 @@
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style/style.css">
+    <script async src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
     <script async src="vendors/jquery-3.6.3.min.js"></script>
+    <script async src="js/main.js"></script>
     <script async src="js/homeV1.js"></script>
     <script async src="js/homeV4.js"></script>
     <script async src="js/homeV5.js"></script>
@@ -35,9 +37,9 @@
             <li class="clickhome"><a style="color: #3BBCA7;" href="#">Home<i class="i1 fa-solid fa-angle-right"></i></a>
                 <ul class="clickhome-dropped list-unstyled">
                     <li><a href="#">Home V1</a></li>
-                    <li><a href="index.html">Home V2</a></li>
+                    <li><a style="color:#3bbca7 ;" href="index.html">Home V2</a></li>
                     <li><a href="#">Home V3</a></li>
-                    <li><a style="color:#3bbca7 ;" href="homeV4.html">Home V4</a></li>
+                    <li><a href="homeV4.html">Home V4</a></li>
                     <li><a href="homeV5.html">Home V5</a></li>
                 </ul>
             </li>
@@ -82,7 +84,8 @@
             </div>
             <div class="navmenu">
                 <ul class="list-unstyled d-flex">
-                    <li class="home"><a href="homeV1.html">Home<i style="color:#3BBCA7;" class="fa-solid fa-angle-down"></i></a>
+                    <li class="home"><a href="homeV1.html">Home<i style="color:#3BBCA7;"
+                                class="fa-solid fa-angle-down"></i></a>
                         <ul class="home-dropped list-unstyled">
                             <li><a href="homeV1.html">Home V1</a></li>
                             <li><a href="index.html">Home V2</a></li>
@@ -133,37 +136,113 @@
         </div>
     </header>
     <!-- header end  -->
-    <section id="platform">
-        <div class="container-fluid">
+    <section id="level">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="box">
-                        <img class="img-fluid dots" src="images/dots.png" alt="">
-                        <div class="textbox">
-                            <h1>A learning platform that<br>helps you to learning<br>faster</h1>
-                            <p>World-class training and development programs<br>developed by top teachers</p>
-                            <a href="#">Explore All Courses</a>
-                        </div>
+                        <p class="p1">DEVELOPED BY TO TEACHERS</p>
+                        <h1>Experience a learning<br>platform that take you<br>next level</h1>
+                        <p class="p2">World-class training and development programs developed by<br>top teachers</p>
+                        <a href="#">Explore All Courses</a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="box">
-                        <img class="img-fluid" src="images/humanv4.png" alt="">
+                        <img class="img-fluid" src="images/rightsideV1.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- platform end  -->
-    <section id="tutorials">
-        <div class="textbox d-flex justify-content-around">
+    <!-- level end  -->
+    <section id="over">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-12 col-sm-12">
+                    <div class="box d-flex">
+                        <img class="img-fluid" src="images/iconblue1.png" alt="">
+                        <span>Over 155,000<br>Video courses on career</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 col-sm-12">
+                    <div class="box d-flex">
+                        <img class="img-fluid" src="images/iconblue2.png" alt="">
+                        <span>Choose from<br>Top industry instructors</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 col-sm-12">
+                    <div class="box d-flex">
+                        <img class="img-fluid" src="images/iconblue3.png" alt="">
+                        <span>Lifetime access<br>On mobile and desktop</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- over end  -->
+    <section id="explore">
+        <div class="text d-flex justify-content-around">
+            <h2>Featured topics by category</h2>
+            <a class="buttonv1" href="#">Explore More</a>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img src="images/ibox1.png" alt="">
+                        <span>Design</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img src="images/ibox2.png" alt="">
+                        <span>Chemistry</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img src="images/ibox3.png" alt="">
+                        <span>Technology</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img src="images/ibox4.png" alt="">
+                        <span>Medical</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img src="images/ibox5.png" alt="">
+                        <span>Mathematics</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img src="images/ibox6.png" alt="">
+                        <span>Food & Recipe</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img src="images/ibox7.png" alt="">
+                        <span>Language</span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img src="images/ibox8.png" alt="">
+                        <span>Art & Block</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- explore end  -->
+    <section id="preview">
+        <div class="text-center">
             <h2>Top Rated Learning Tutorials</h2>
-            <ul class="list-unstyled d-flex">
-                <li class="clickall">ALL</li>
-                <li class="clickcooking">COOKING</li>
-                <li class="clickfinance">FINANCE</li>
-                <li class="clicklifestyle">LIFESTYLE</li>
-            </ul>
         </div>
         <div class="container">
             <div class="row">
@@ -297,328 +376,135 @@
                 </div>
             </div>
         </div>
-    </section>
-    <!-- tutorials end  -->
-    <section id="topics">
         <div class="text-center">
-            <h2>Featured topics by category</h2>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="box">
-                        <img src="images/ibox1.png" alt="">
-                        <span>Design</span>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="box">
-                        <img src="images/ibox2.png" alt="">
-                        <span>Chemistry</span>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="box">
-                        <img src="images/ibox3.png" alt="">
-                        <span>Technology</span>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="box">
-                        <img src="images/ibox4.png" alt="">
-                        <span>Medical</span>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="box">
-                        <img src="images/ibox5.png" alt="">
-                        <span>Mathematics</span>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="box">
-                        <img src="images/ibox6.png" alt="">
-                        <span>Food & Recipe</span>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="box">
-                        <img src="images/ibox7.png" alt="">
-                        <span>Language</span>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="box">
-                        <img src="images/ibox8.png" alt="">
-                        <span>Art & Block</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- topics end  -->
-    <section id="tricks">
-        <div class="text-center">
-            <h2>Top Rated Learning Tutorials</h2>
-        </div>
-        <div class="d-flex">
-            <div class="leftside">
-                <img src="images/leftside.png" alt="">
-            </div>
-            <div class="rightside">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-12 col-sm-12">
-                            <div class="box">
-                                <img class="img-fluid" src="images/box1.jpeg" alt="">
-                                <a href="#">Cooking</a><span class="span1">Free</span>
-                                <h6>Absolute Beginners<br>Cooking Course</h6>
-                                <img class="human" src="images/human1.jpeg" alt=""> <span class="span2">Tim
-                                    Burton</span>
-                                <hr>
-                                <i class="fa-regular fa-user"></i>
-                                <span class="span3">86</span>
-                                <i class="fa-solid fa-book"></i>
-                                <span style="margin-right: 30px;" class="span3">10</span>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-12 col-sm-12">
-                            <div class="box">
-                                <img class="img-fluid" src="images/box2.jpeg" alt="">
-                                <a href="#">Business</a><span class="span1">$29.00</span>
-                                <h6>Web Design Training with<br>Elementor</h6>
-                                <img class="human" src="images/human2.jpeg" alt=""> <span class="span2">Devon
-                                    Koss</span>
-                                <hr>
-                                <i class="fa-regular fa-user"></i>
-                                <span class="span3">11</span>
-                                <i class="fa-solid fa-book"></i>
-                                <span style="margin-right: 30px;" class="span3">12</span>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-12 col-sm-12">
-                            <div class="box">
-                                <img class="img-fluid" src="images/box3.jpeg" alt="">
-                                <a href="#">Cooking</a><span class="span1">$39.00</span>
-                                <h6>Basic Level Youth Health<br>and Cooking</h6>
-                                <img class="human" src="images/human3.jpeg" alt=""> <span class="span2">Fred
-                                    Hyman</span>
-                                <hr>
-                                <i class="fa-regular fa-user"></i>
-                                <span class="span3">1</span>
-                                <i class="fa-solid fa-book"></i>
-                                <span style="margin-right: 30px;" class="span3">12</span>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-12 col-sm-12">
-                            <div class="box">
-                                <img class="img-fluid" src="images/box4.jpeg" alt="">
-                                <a href="#">Lifestyle</a><span class="span1">Free</span>
-                                <h6>Drawing and Painting<br>Course for Children</h6>
-                                <img class="human" src="images/human1.jpeg" alt=""> <span class="span2">Tim
-                                    Burton</span>
-                                <hr>
-                                <i class="fa-regular fa-user"></i>
-                                <span class="span3">35</span>
-                                <i class="fa-solid fa-book"></i>
-                                <span style="margin-right: 30px;" class="span3">14</span>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-12 col-sm-12">
-                            <div class="box">
-                                <img class="img-fluid" src="images/box5.jpeg" alt="">
-                                <a href="#">Finance</a><span class="span1">$29.00</span>
-                                <h6>WordPress Beginner to<br>Advanced Course</h6>
-                                <img class="human" src="images/human2.jpeg" alt=""> <span class="span2">Devon
-                                    Koss</span>
-                                <hr>
-                                <i class="fa-regular fa-user"></i>
-                                <span class="span3">1</span>
-                                <i class="fa-solid fa-book"></i>
-                                <span style="margin-right: 30px;" class="span3">13</span>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-12 col-sm-12">
-                            <div class="box">
-                                <img class="img-fluid" src="images/box6.jpeg" alt="">
-                                <a href="#">Business</a><span class="span1">Free</span>
-                                <h6>Complete Digital Marketing<br>Course</h6>
-                                <img class="human" src="images/human1.jpeg" alt=""> <span class="span2">Tim
-                                    Burton</span>
-                                <hr>
-                                <i class="fa-regular fa-user"></i>
-                                <span class="span3">57</span>
-                                <i class="fa-solid fa-book"></i>
-                                <span style="margin-right: 30px;" class="span3">11</span>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i style="color: grey;" class="fa-solid fa-star"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="button">
             <a href="#">Explore All Courses</a>
         </div>
     </section>
-    <!-- tricks end  -->
-    <section id="corp">
-        <div class="text-center">
-            <h1 class="mainh1 ">What people say about us</h1>
-        </div>
+    <!-- preview end  -->
+    <section id="thousands">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="box">
-                        <img class="img-fluid" src="images/corpimg.png" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="box box2">
-                        <p class="p1">World-class training and development programs<br>developed by top teachers Connect
-                            Fellow to
-                            the<br>tools you love to make your meeting,management,<br>and productivity workflows even
-                            better</p>
-                        <p class="p2">James Smith</p>
-                        <p class="p3">CFO Apple Corp</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="numberbox">
-                        <h1 class="h1">360+</h1>
-                        <p class="p4">Hours Of Learning</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="numberbox">
-                        <h1 class="h1">1200+</h1>
-                        <p class="p4">Enrolled Learners</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="numberbox">
-                        <h1 class="h1">650+</h1>
-                        <p class="p4">Online Instructors</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="numberbox">
-                        <h1 class="h1">100%</h1>
-                        <p class="p4">Satisfaction rate</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- corp end  -->
-    <section id="news">
-        <div class="text-center">
-            <h1>Get from our news & article</h1>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="box">
-                        <img class="img-fluid" src="images/firstbox.jpeg" alt="">
-                        <i class="fa-regular fa-user"></i>
-                        <span>Fred Hyman</span>
-                        <i class="fa-regular fa-message"></i>
-                        <span>2 Comments</span>
-                        <h4>Thoughts for Educators On<br>School Reopening</h4>
-                        <p>In order to write the perfect blog post, you<br>need to break your content up
-                            into<br>paragraphs....</p>
-                        <button>Lifestyle</button>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="box">
-                        <img class="img-fluid" src="images/secondbox.jpeg" alt="">
-                        <i class="fa-regular fa-user"></i>
-                        <span>Fred Hyman</span>
-                        <i class="fa-regular fa-message"></i>
-                        <span>2 Comments</span>
-                        <h4>Information About Teacher<br>Certification</h4>
-                        <p>In order to write the perfect blog post, you<br>need to break your content up
-                            into<br>paragraphs....</p>
-                        <button>Lifestyle</button>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="box">
-                        <img class="img-fluid" src="images/thirdbox.jpeg" alt="">
-                        <i class="fa-regular fa-user"></i>
-                        <span>Fred Hyman</span>
-                        <i class="fa-regular fa-message"></i>
-                        <span>2 Comments</span>
-                        <h4>We are changing the way the world learns</h4>
-                        <p>In order to write the perfect blog post, you<br>need to break your content up
-                            into<br>paragraphs....</p>
-                        <button>Learning</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- news end  -->
-    <section id="business">
-        <div class="container mainbox">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="box textbox">
-                        <h1>Start for Business</h1>
-                        <p>Get unlimited access to 5,500+ of our top for your<br>team</p>
-                        <a href="#">Get For Business</a>
+                        <h2>Thousands of courses authored<br>by industry experts</h2>
+                        <i class="fa-solid fa-check"></i>
+                        <span>Get access to 4,000+ of our top courses</span>
+                        <br>
+                        <i class="fa-solid fa-check"></i>
+                        <span>Popular topics to learn now</span>
+                        <br>
+                        <i class="fa-solid fa-check"></i>
+                        <span>Find the right instructor for you</span>
+                        <br>
+                        <a href="#">Get Started Today</a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="box imgbox">
-                        <img src="images/boy.png" alt="">
+                    <div class="box">
+                        <img class="img-fluid" src="images/mainhuman.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- business end  -->
+    <!-- thousands end  -->
+    <section id="take">
+        <div class="text-center">
+            <h2>Why Take This Course</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img src="images/1imgv1.jpg" alt="">
+                        <a href="https://www.youtube.com/watch?v=_X0eYtY8T_U&ab_channel=Elementor">
+                            <i class="fa-solid fa-play"></i>
+                        </a>
+                        <p>Taught by industry<br>professionals</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img src="images/2imgv1.jpg" alt="">
+                        <a href="https://www.youtube.com/watch?v=_X0eYtY8T_U&ab_channel=Elementor">
+                            <i class="fa-solid fa-play"></i>
+                        </a>
+                        <p>Learn from the expert<br>course mentor</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img src="images/3imgv1.jpg" alt="">
+                        <a href="https://www.youtube.com/watch?v=_X0eYtY8T_U&ab_channel=Elementor">
+                            <i class="fa-solid fa-play"></i>
+                        </a>
+                        <p>Discuss your future career<br>goals</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img src="images/4imgv1.jpg" alt="">
+                        <a href="https://www.youtube.com/watch?v=_X0eYtY8T_U&ab_channel=Elementor">
+                            <i class="fa-solid fa-play"></i>
+                        </a>
+                        <p>Mentorship and<br>community support</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- take end  -->
+    <section id="stories">
+        <div class="text-center">
+            <h2>Stories of Successful Students</h2>
+        </div>
+        <div class="background">
+            <div class="sliderv1">
+                <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" slides-per-view="3"
+                    space-between="30" free-mode="true">
+                    <swiper-slide><img class="img-fluid" src="images/1slide.png" alt=""></swiper-slide>
+                    <swiper-slide><img class="img-fluid" src="images/2slide.png" alt=""></swiper-slide>
+                    <swiper-slide><img class="img-fluid" src="images/3slide.png" alt=""></swiper-slide>
+                    <swiper-slide><img class="img-fluid" src="images/1slide.png" alt=""></swiper-slide>
+                    <swiper-slide><img class="img-fluid" src="images/2slide.png" alt=""></swiper-slide>
+                    <swiper-slide><img class="img-fluid" src="images/3slide.png" alt=""></swiper-slide>
+                </swiper-container>
+            </div>
+        </div>
+    </section>
+    <!-- stories end  -->
+<section id="brands">
+    <div class="text-center">
+    <h5>We collaborate with <span>200+</span> Leading universities & companies</h5>
+</div>
+<img style="width: 100%;" class="img-fluid" src="images/brands.png" alt="">
+</section>
+<!-- brands end  -->
+<section id="letters">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="box">
+                    <h3>Subscribe Newsletters</h3>
+                    <p>Enter your email address to register to our newsletter</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="box">
+                    <input type="text" placeholder="Your email address"> <a href="#">Subscribe</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- letters end  -->
     <footer id="footer">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="box">
                         <img src="images/2x_logo-white.png" alt="">
-                        <p>We support programs that<br>create advancement for<br>people</p>
+                        <p>We support programs that create<br>advancement for people</p>
                         <i class="fa-brands fa-facebook"></i>
                         <i class="fa-brands fa-twitter"></i>
                         <i class="fa-brands fa-instagram"></i>
@@ -640,8 +526,10 @@
                         <span>Learning</span>
                         <ul>
                             <li>Business Strategy</li>
+                            <br>
                             <li>Become A Teacher</li>
                             <li>Project Managment</li>
+                            <br>
                             <li>Membership</li>
                         </ul>
                     </div>
