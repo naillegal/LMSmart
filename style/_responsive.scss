@@ -2,6 +2,9 @@
   #header {
     display: none;
   }
+  #headerv5{
+    display: none;
+  }
   #experience {
     .box {
       span {
@@ -36,9 +39,30 @@
       }
     }
   }
+  #tricks{
+    .leftside{
+      img{
+        display: none;
+      }
+    }
+  }
+  #chiken{
+    .box{
+    img{
+      display: none;
+    }
+  }
+}
 }
 @media (min-width: 1367px) and (max-width: 2160px) {
   #header {
+    display: flex;
+    justify-content: center;
+    .line {
+      margin: 0px 20px;
+    }
+  }
+  #headerv5 {
     display: flex;
     justify-content: center;
     .line {

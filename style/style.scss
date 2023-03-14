@@ -461,8 +461,8 @@
       font-size: 18px;
       margin-left: 20px;
       cursor: pointer;
-      &:hover{
-        color: #3BBCA7;
+      &:hover {
+        color: #3bbca7;
       }
     }
     .fa-user {
@@ -675,6 +675,8 @@
     span {
       color: grey;
       transition: 0.2s ease-in-out;
+      font-size: 12px;
+      font-weight: 500;
       &:hover {
         color: #3bbca7;
       }
@@ -706,48 +708,48 @@
     }
   }
 }
-// news end 
-#business{
+// news end
+#business {
   margin: 100px 0px;
-  background-color: #FEFEFE;
-  .box{
+  background-color: #fefefe;
+  .box {
     padding: 30px 0px;
   }
-  .mainbox{
-    background-color: #3BBCA7;
+  .mainbox {
+    background-color: #3bbca7;
     border-radius: 10px;
-    .textbox{
+    .textbox {
       margin: 50px 0px 0px 80px;
-    h1{
-      color: white;
-      font-weight: bolder;
-    }
-    p{
-      color: white;
-      font-size: 18px;
-      font-weight: 500;
-      margin: 20px 0px
-    }
-    a{
-      text-decoration: none;
-      display: inline-block;
-      color: #1B2336;
-      background-color: white;
-      padding: 12px 25px;
-      font-weight: bold;
-      transition: 0.2s ease-in-out;
-      &:hover{
+      h1 {
         color: white;
-        background-color: #072F60;
+        font-weight: bolder;
+      }
+      p {
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+        margin: 20px 0px;
+      }
+      a {
+        text-decoration: none;
+        display: inline-block;
+        color: #1b2336;
+        background-color: white;
+        padding: 12px 25px;
+        font-weight: bold;
+        transition: 0.2s ease-in-out;
+        &:hover {
+          color: white;
+          background-color: #072f60;
+        }
       }
     }
-    }
-    .imgbox{
+    .imgbox {
       float: right;
     }
   }
 }
-// business end 
+// business end
 #footer {
   background-color: #141948;
   color: #dddfe3;
@@ -796,4 +798,5 @@
 }
 // footer end
 @import "responsive";
-@import 'homeV4'
+@import "homeV4";
+@import "homeV5";

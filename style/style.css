@@ -410,7 +410,7 @@
   cursor: pointer;
 }
 #toprated .box1 h6:hover, #toprated #tutorials .box8 h6:hover, #tutorials #toprated .box8 h6:hover, #toprated #tutorials .box7 h6:hover, #tutorials #toprated .box7 h6:hover, #toprated #tutorials .box6 h6:hover, #tutorials #toprated .box6 h6:hover, #toprated #tutorials .box5 h6:hover, #tutorials #toprated .box5 h6:hover, #toprated .box4 h6:hover, #toprated .box3 h6:hover, #toprated .box2 h6:hover {
-  color: #3BBCA7;
+  color: #3bbca7;
 }
 #toprated .box1 .fa-user, #toprated #tutorials .box8 .fa-user, #tutorials #toprated .box8 .fa-user, #toprated #tutorials .box7 .fa-user, #tutorials #toprated .box7 .fa-user, #toprated #tutorials .box6 .fa-user, #tutorials #toprated .box6 .fa-user, #toprated #tutorials .box5 .fa-user, #tutorials #toprated .box5 .fa-user, #toprated .box4 .fa-user, #toprated .box3 .fa-user, #toprated .box2 .fa-user {
   color: #3bbca7;
@@ -605,6 +605,8 @@
 #news .box span {
   color: grey;
   transition: 0.2s ease-in-out;
+  font-size: 12px;
+  font-weight: 500;
 }
 #news .box span:hover {
   color: #3bbca7;
@@ -637,13 +639,13 @@
 
 #business {
   margin: 100px 0px;
-  background-color: #FEFEFE;
+  background-color: #fefefe;
 }
 #business .box {
   padding: 30px 0px;
 }
 #business .mainbox {
-  background-color: #3BBCA7;
+  background-color: #3bbca7;
   border-radius: 10px;
 }
 #business .mainbox .textbox {
@@ -662,7 +664,7 @@
 #business .mainbox .textbox a {
   text-decoration: none;
   display: inline-block;
-  color: #1B2336;
+  color: #1b2336;
   background-color: white;
   padding: 12px 25px;
   font-weight: bold;
@@ -670,7 +672,7 @@
 }
 #business .mainbox .textbox a:hover {
   color: white;
-  background-color: #072F60;
+  background-color: #072f60;
 }
 #business .mainbox .imgbox {
   float: right;
@@ -725,6 +727,9 @@
   #header {
     display: none;
   }
+  #headerv5 {
+    display: none;
+  }
   #experience .box span {
     display: inline-block;
     margin-top: 20px;
@@ -745,6 +750,12 @@
   #tutorials .textbox h2 {
     display: none;
   }
+  #tricks .leftside img {
+    display: none;
+  }
+  #chiken .box img {
+    display: none;
+  }
 }
 @media (min-width: 1367px) and (max-width: 2160px) {
   #header {
@@ -752,6 +763,13 @@
     justify-content: center;
   }
   #header .line {
+    margin: 0px 20px;
+  }
+  #headerv5 {
+    display: flex;
+    justify-content: center;
+  }
+  #headerv5 .line {
     margin: 0px 20px;
   }
   .clickmenu {
@@ -1053,4 +1071,621 @@
   color: #224570;
   font-weight: 500;
   font-size: 14px;
+}
+
+#headerv5 {
+  padding: 10px 0px;
+  background-color: white;
+}
+#headerv5 .logo img {
+  width: 60%;
+}
+#headerv5 .navmenu ul .home {
+  position: relative;
+}
+#headerv5 .navmenu ul .home:hover .home-dropped {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(25px);
+}
+#headerv5 .navmenu ul .home .home-dropped {
+  position: absolute;
+  border-top: 3px solid orange;
+  border-radius: 5px;
+  background-color: white;
+  width: 17rem;
+  max-height: 35vh;
+  transform: translateY(40px);
+  transition: 0.5s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+  box-shadow: 0 10px 10px rgba(102, 102, 102, 0.1725490196);
+  padding-bottom: 20px;
+}
+#headerv5 .navmenu ul .home .home-dropped li a {
+  font-size: 15px;
+  color: #072f60;
+  padding: 0px 30px;
+}
+#headerv5 .navmenu ul .courses {
+  position: relative;
+}
+#headerv5 .navmenu ul .courses:hover .courses-dropped {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(25px);
+}
+#headerv5 .navmenu ul .courses .courses-dropped {
+  position: absolute;
+  border-top: 3px solid orange;
+  border-radius: 5px;
+  background-color: white;
+  width: 17rem;
+  max-height: 35vh;
+  transform: translateY(40px);
+  transition: 0.3s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+  box-shadow: 0 10px 10px rgba(102, 102, 102, 0.1725490196);
+  padding-bottom: 20px;
+}
+#headerv5 .navmenu ul .courses .courses-dropped li a {
+  font-size: 15px;
+  color: #072f60;
+  padding: 0px 30px;
+}
+#headerv5 .navmenu ul .blog {
+  position: relative;
+}
+#headerv5 .navmenu ul .blog:hover .blog-dropped {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(25px);
+}
+#headerv5 .navmenu ul .blog .blog-dropped {
+  position: absolute;
+  border-top: 3px solid orange;
+  border-radius: 5px;
+  background-color: white;
+  width: 16rem;
+  max-height: 22vh;
+  transform: translateY(40px);
+  transition: 0.3s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+  box-shadow: 0 10px 10px rgba(102, 102, 102, 0.1725490196);
+  padding-bottom: 20px;
+}
+#headerv5 .navmenu ul .blog .blog-dropped li a {
+  font-size: 15px;
+  color: #072f60;
+  padding: 0px 30px;
+}
+#headerv5 .navmenu ul .pages {
+  position: relative;
+}
+#headerv5 .navmenu ul .pages:hover .pages-dropped {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(25px);
+}
+#headerv5 .navmenu ul .pages .pages-dropped {
+  position: absolute;
+  border-top: 3px solid orange;
+  border-radius: 5px;
+  background-color: white;
+  width: 16rem;
+  max-height: 62vh;
+  transform: translateY(40px);
+  transition: 0.3s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+  box-shadow: 0 10px 10px rgba(102, 102, 102, 0.1725490196);
+  padding-bottom: 20px;
+}
+#headerv5 .navmenu ul .pages .pages-dropped li a {
+  font-size: 15px;
+  color: #072f60;
+  padding: 0px 30px;
+}
+#headerv5 .navmenu ul li:first-child a {
+  color: orange;
+}
+#headerv5 .navmenu ul li a {
+  display: block;
+  color: #072f60;
+  text-decoration: none;
+  font-weight: 500;
+  font-family: inherit;
+  margin-top: 20px;
+  padding: 0px 15px;
+  transition: 0.2s ease-in-out;
+}
+#headerv5 .navmenu ul li a:hover {
+  color: orange;
+}
+#headerv5 .navmenu ul li a:hover i {
+  color: #3bbca7;
+}
+#headerv5 .navmenu ul li a i {
+  padding: 5px;
+  font-size: 12px;
+  color: grey;
+  transition: 0.2s ease-in-out;
+}
+#headerv5 .inputbox {
+  position: relative;
+}
+#headerv5 .inputbox input {
+  background-color: #f8f8f8;
+  outline: none;
+  border: none;
+  padding: 12px 20px;
+  width: 250px;
+  font-family: inherit;
+  border-radius: 5px;
+}
+#headerv5 .inputbox .fa-magnifying-glass {
+  position: absolute;
+  top: 35%;
+  left: 80%;
+  color: orange;
+}
+#headerv5 .line {
+  width: 1px;
+  height: 40px;
+  background-color: #b6b6b6;
+  transform: rotateX("90deg");
+}
+#headerv5 .rightside {
+  margin: 15px 120px 0px 0px;
+  font-family: inherit;
+  color: orange;
+  cursor: pointer;
+}
+
+#cook {
+  background-color: #faf0e4;
+}
+#cook .box h1 {
+  font-size: 60px;
+}
+#cook .box p {
+  color: gray;
+  font-weight: 500;
+  margin: 30px 0px;
+}
+#cook .box a {
+  background-color: #f6520a;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: 500;
+  border-radius: 20px;
+  transition: 0.2s ease-in-out;
+  margin: 20px 0px;
+  display: inline-block;
+}
+#cook .box a:hover {
+  background-color: #ffa300;
+}
+#cook .rightboxv5 {
+  float: right;
+  margin-top: 150px;
+  margin-right: 50px;
+}
+
+#chiken {
+  margin-top: 100px;
+}
+#chiken .box {
+  border-radius: 20px;
+  padding: 38px 0px;
+}
+#chiken .box img {
+  float: right;
+  width: 35%;
+  margin-top: -150px;
+  border-radius: 20px;
+}
+#chiken .box h6 {
+  color: orangered;
+  margin-left: 50px;
+}
+#chiken .box h2 {
+  margin-left: 50px;
+}
+#chiken .box a {
+  background-color: #f6520a;
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  font-weight: 500;
+  border-radius: 20px;
+  transition: 0.2s ease-in-out;
+  margin: 20px 0px;
+  display: inline-block;
+  margin-left: 50px;
+}
+#chiken .box a:hover {
+  background-color: #ffa300;
+}
+#chiken .box2v5 {
+  background-color: #adddc7;
+}
+#chiken .box2v5 img {
+  width: 30%;
+}
+#chiken .box2v5 h2 {
+  color: white;
+}
+#chiken .box2v5 a {
+  background-color: #ffa300;
+}
+#chiken .box2v5 a:hover {
+  background-color: #f6520a;
+}
+
+#popular {
+  margin-top: 100px;
+}
+#popular .fc {
+  color: orangered;
+  font-weight: 500;
+  font-size: 12px;
+  position: relative;
+}
+#popular .fc::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  background-color: orangered;
+  height: 2px;
+  top: 50%;
+  right: 105%;
+}
+#popular .fc::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  background-color: orangered;
+  height: 2px;
+  top: 50%;
+  left: 105%;
+}
+#popular .epc {
+  color: #072f60;
+  margin: 20px 0px;
+}
+#popular .box1, #popular .box4, #popular .box3, #popular .box2, #popular #tutorials .box5, #tutorials #popular .box5, #popular #tutorials .box6, #tutorials #popular .box6, #popular #tutorials .box7, #tutorials #popular .box7, #popular #tutorials .box8, #tutorials #popular .box8 {
+  font-family: "Heebo", sans-serif;
+  box-shadow: 0px 10px 10px rgba(102, 102, 102, 0.1725490196);
+  border-radius: 5px;
+  transition: 0.2s ease-in-out;
+}
+#popular .box1:hover img, #popular .box4:hover img, #popular .box3:hover img, #popular .box2:hover img, #popular #tutorials .box5:hover img, #tutorials #popular .box5:hover img, #popular #tutorials .box6:hover img, #tutorials #popular .box6:hover img, #popular #tutorials .box7:hover img, #tutorials #popular .box7:hover img, #popular #tutorials .box8:hover img, #tutorials #popular .box8:hover img {
+  filter: brightness(80%);
+}
+#popular .box1 img, #popular .box4 img, #popular .box3 img, #popular .box2 img, #popular #tutorials .box5 img, #tutorials #popular .box5 img, #popular #tutorials .box6 img, #tutorials #popular .box6 img, #popular #tutorials .box7 img, #tutorials #popular .box7 img, #popular #tutorials .box8 img, #tutorials #popular .box8 img {
+  padding: 20px 0px;
+  transition: 0.2s ease-in-out;
+}
+#popular .box1 .human, #popular .box4 .human, #popular .box3 .human, #popular .box2 .human, #popular #tutorials .box5 .human, #tutorials #popular .box5 .human, #popular #tutorials .box6 .human, #tutorials #popular .box6 .human, #popular #tutorials .box7 .human, #tutorials #popular .box7 .human, #popular #tutorials .box8 .human, #tutorials #popular .box8 .human {
+  border-radius: 50%;
+  width: 11%;
+  margin-left: 20px;
+}
+#popular .box1 a, #popular .box4 a, #popular .box3 a, #popular .box2 a, #popular #tutorials .box5 a, #tutorials #popular .box5 a, #popular #tutorials .box6 a, #tutorials #popular .box6 a, #popular #tutorials .box7 a, #tutorials #popular .box7 a, #popular #tutorials .box8 a, #tutorials #popular .box8 a {
+  background-color: #f1faf9;
+  color: orange;
+  padding: 5px 10px;
+  margin-left: 20px;
+  transition: 0.2s ease-in-out;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+}
+#popular .box1 a:hover, #popular .box4 a:hover, #popular .box3 a:hover, #popular .box2 a:hover, #popular #tutorials .box5 a:hover, #tutorials #popular .box5 a:hover, #popular #tutorials .box6 a:hover, #tutorials #popular .box6 a:hover, #popular #tutorials .box7 a:hover, #tutorials #popular .box7 a:hover, #popular #tutorials .box8 a:hover, #tutorials #popular .box8 a:hover {
+  background-color: orange;
+  color: white;
+}
+#popular .box1 .span1, #popular .box4 .span1, #popular .box3 .span1, #popular .box2 .span1, #popular #tutorials .box5 .span1, #tutorials #popular .box5 .span1, #popular #tutorials .box6 .span1, #tutorials #popular .box6 .span1, #popular #tutorials .box7 .span1, #tutorials #popular .box7 .span1, #popular #tutorials .box8 .span1, #tutorials #popular .box8 .span1 {
+  float: right;
+  margin-top: 2px;
+  margin-right: 20px;
+  color: #072f60;
+  font-weight: bold;
+}
+#popular .box1 .span2, #popular .box4 .span2, #popular .box3 .span2, #popular .box2 .span2, #popular #tutorials .box5 .span2, #tutorials #popular .box5 .span2, #popular #tutorials .box6 .span2, #tutorials #popular .box6 .span2, #popular #tutorials .box7 .span2, #tutorials #popular .box7 .span2, #popular #tutorials .box8 .span2, #tutorials #popular .box8 .span2 {
+  color: grey;
+}
+#popular .box1 .span3, #popular .box4 .span3, #popular .box3 .span3, #popular .box2 .span3, #popular #tutorials .box5 .span3, #tutorials #popular .box5 .span3, #popular #tutorials .box6 .span3, #tutorials #popular .box6 .span3, #popular #tutorials .box7 .span3, #tutorials #popular .box7 .span3, #popular #tutorials .box8 .span3, #tutorials #popular .box8 .span3 {
+  color: gray;
+}
+#popular .box1 h6, #popular .box4 h6, #popular .box3 h6, #popular .box2 h6, #popular #tutorials .box5 h6, #tutorials #popular .box5 h6, #popular #tutorials .box6 h6, #tutorials #popular .box6 h6, #popular #tutorials .box7 h6, #tutorials #popular .box7 h6, #popular #tutorials .box8 h6, #tutorials #popular .box8 h6 {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #072f60;
+  font-size: 18px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+#popular .box1 h6:hover, #popular .box4 h6:hover, #popular .box3 h6:hover, #popular .box2 h6:hover, #popular #tutorials .box5 h6:hover, #tutorials #popular .box5 h6:hover, #popular #tutorials .box6 h6:hover, #tutorials #popular .box6 h6:hover, #popular #tutorials .box7 h6:hover, #tutorials #popular .box7 h6:hover, #popular #tutorials .box8 h6:hover, #tutorials #popular .box8 h6:hover {
+  color: orange;
+}
+#popular .box1 .fa-user, #popular .box4 .fa-user, #popular .box3 .fa-user, #popular .box2 .fa-user, #popular #tutorials .box5 .fa-user, #tutorials #popular .box5 .fa-user, #popular #tutorials .box6 .fa-user, #tutorials #popular .box6 .fa-user, #popular #tutorials .box7 .fa-user, #tutorials #popular .box7 .fa-user, #popular #tutorials .box8 .fa-user, #tutorials #popular .box8 .fa-user {
+  color: orange;
+  margin-left: 5px;
+}
+#popular .box1 .fa-book, #popular .box4 .fa-book, #popular .box3 .fa-book, #popular .box2 .fa-book, #popular #tutorials .box5 .fa-book, #tutorials #popular .box5 .fa-book, #popular #tutorials .box6 .fa-book, #tutorials #popular .box6 .fa-book, #popular #tutorials .box7 .fa-book, #tutorials #popular .box7 .fa-book, #popular #tutorials .box8 .fa-book, #tutorials #popular .box8 .fa-book {
+  color: orange;
+  margin-left: 5px;
+}
+#popular .box1 .fa-star, #popular .box4 .fa-star, #popular .box3 .fa-star, #popular .box2 .fa-star, #popular #tutorials .box5 .fa-star, #tutorials #popular .box5 .fa-star, #popular #tutorials .box6 .fa-star, #tutorials #popular .box6 .fa-star, #popular #tutorials .box7 .fa-star, #tutorials #popular .box7 .fa-star, #popular #tutorials .box8 .fa-star, #tutorials #popular .box8 .fa-star {
+  color: orange;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+#snacks {
+  margin-top: 100px;
+  background-color: #fff9ed;
+}
+#snacks span {
+  margin-top: 50px;
+  display: inline-block;
+  color: orangered;
+  font-weight: 500;
+  font-size: 12px;
+  position: relative;
+}
+#snacks span::before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  background-color: orangered;
+  height: 2px;
+  top: 50%;
+  right: 105%;
+}
+#snacks span::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  background-color: orangered;
+  height: 2px;
+  top: 50%;
+  left: 105%;
+}
+#snacks h2 {
+  color: #072f60;
+  margin: 20px 0px;
+}
+#snacks .box {
+  margin-top: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+#snacks .box:hover img {
+  transform: scale(1.1);
+}
+#snacks .box img {
+  border-radius: 20px;
+  transition: 0.4s ease-in-out;
+  filter: brightness(70%);
+}
+#snacks .box p {
+  text-align: center;
+  font-weight: bold;
+  transform: translateY(-50px);
+  color: white;
+}
+
+#hosue {
+  padding: 100px 0px;
+}
+#hosue .box h2 {
+  color: #072f60;
+}
+#hosue .box p {
+  color: gray;
+  margin: 30px 0px;
+}
+#hosue .box i {
+  color: orangered;
+}
+#hosue .box span {
+  color: gray;
+}
+#hosue .box a {
+  background-color: #f6520a;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: 500;
+  border-radius: 20px;
+  transition: 0.2s ease-in-out;
+  margin: 20px 0px;
+  display: inline-block;
+}
+#hosue .box a:hover {
+  background-color: #ffa300;
+}
+#hosue .text {
+  margin-top: 100px;
+}
+
+#connect .background {
+  background: url("/images/backgroundv5.jpeg");
+  height: 100vh;
+  background-size: cover;
+}
+#connect .background .sliderv5 {
+  padding-top: 90px;
+  margin: auto;
+  width: 70%;
+  height: 90vh;
+}
+#connect .background .sliderv5 swiper-container {
+  width: 100%;
+  height: 100%;
+}
+#connect .background .sliderv5 swiper-container swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#around .ln {
+  margin-top: 50px;
+  display: inline-block;
+  color: orangered;
+  font-weight: 500;
+  font-size: 12px;
+  position: relative;
+}
+#around .ln::before {
+  content: "";
+  position: absolute;
+  width: 40px;
+  background-color: orangered;
+  height: 2px;
+  top: 50%;
+  right: 105%;
+}
+#around .ln::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  background-color: orangered;
+  height: 2px;
+  top: 50%;
+  left: 105%;
+}
+#around h3 {
+  color: #072f60;
+  margin: 20px 0px;
+}
+#around .box {
+  margin-top: 50px;
+  box-shadow: 0px 10px 10px rgba(102, 102, 102, 0.1725490196);
+  position: relative;
+  cursor: pointer;
+}
+#around .box img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#around .box i {
+  color: orangered;
+  margin: 20px 0px 0px 20px;
+}
+#around .box span {
+  color: grey;
+  transition: 0.2s ease-in-out;
+  font-size: 12px;
+  font-weight: 500;
+}
+#around .box span:hover {
+  color: #3bbca7;
+}
+#around .box h4 {
+  color: #072f60;
+  margin: 20px;
+  transition: 0.2s ease-in-out;
+  padding-bottom: 20px;
+}
+#around .box h4:hover {
+  color: orangered;
+}
+#around .box button {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  border-radius: 20px;
+  background-color: orangered;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+#salad {
+  margin-top: 100px;
+}
+#salad .box {
+  position: relative;
+}
+#salad .box img {
+  border-radius: 20px;
+}
+#salad .box a {
+  position: absolute;
+  top: 60%;
+  right: 60%;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  padding: 8px 20px;
+  transition: 0.2s ease-in-out;
+  border-radius: 20px;
+  font-weight: 500;
+}
+#salad .box a:hover {
+  color: white;
+  background-color: orangered;
+}
+
+#footerv5 {
+  color: #dddfe3;
+  font-family: inherit;
+  padding: 20px 0px;
+}
+#footerv5 .box img {
+  width: 60%;
+  margin: 20px 0px;
+}
+#footerv5 .box .fa-brands {
+  color: orange;
+  border-radius: 50%;
+  border: 1px solid orange;
+  padding: 10px;
+  transition: 0.2s ease-in-out;
+}
+#footerv5 .box .fa-brands:hover {
+  background-color: orange;
+  color: white;
+}
+#footerv5 .box span {
+  display: block;
+  margin: 20px 30px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #072f60;
+}
+#footerv5 .box ul {
+  list-style: none;
+}
+#footerv5 .box ul li {
+  padding: 5px 0px;
+  font-size: 18px;
+  display: inline-block;
+  cursor: pointer;
+  color: gray;
+}
+#footerv5 .box ul li:hover {
+  color: orange;
+  font-weight: 500;
+}
+#footerv5 .box i {
+  margin: 0px 5px;
+  color: orange;
+}
+#footerv5 .box p {
+  color: gray;
 }/*# sourceMappingURL=style.css.map */

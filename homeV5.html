@@ -11,6 +11,7 @@
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style/style.css">
+    <script async src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
     <script async src="vendors/jquery-3.6.3.min.js"></script>
     <script async src="js/main.js"></script>
     <script async src="js/homeV4.js"></script>
@@ -18,7 +19,7 @@
 </head>
 
 <body>
-    <div class="clicktoup">
+    <div style="background-color: orange;" class="clicktoup">
         <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
     </div>
     <div id="responsive-header">
@@ -32,13 +33,13 @@
     <div class="clickmenu">
         <div class="logo"></div>
         <ul class="list-unstyled">
-            <li class="clickhome"><a style="color: #3BBCA7;" href="#">Home<i class="i1 fa-solid fa-angle-right"></i></a>
+            <li class="clickhome"><a style="color: orange;" href="#">Home<i class="i1 fa-solid fa-angle-right"></i></a>
                 <ul class="clickhome-dropped list-unstyled">
                     <li><a href="#">Home V1</a></li>
-                    <li><a style="color:#3bbca7 ;" href="index.html">Home V2</a></li>
+                    <li><a href="index.html">Home V2</a></li>
                     <li><a href="#">Home V3</a></li>
                     <li><a href="homeV4.html">Home V4</a></li>
-                    <li><a href="homeV5.html">Home V5</a></li>
+                    <li><a style="color:orange;" href="homeV5.html">Home V5</a></li>
                 </ul>
             </li>
             <li class="clickcourses"><a href="#">Courses<i class="i2 fa-solid fa-angle-right"></i></a>
@@ -75,14 +76,14 @@
             <input type="text" placeholder="Search ...">
         </div>
     </div>
-    <header id="header">
+    <header id="headerv5">
         <div class="d-flex justify-content-around align-items-center">
             <div class="logo d-flex justify-content-center">
-                <img src="images/2x_logo.png" alt="">
+                <img src="images/orangelogo.png" alt="">
             </div>
             <div class="navmenu">
                 <ul class="list-unstyled d-flex">
-                    <li class="home"><a href="#">Home<i style="color:#3BBCA7;" class="fa-solid fa-angle-down"></i></a>
+                    <li class="home"><a href="#">Home<i style="color:orange;" class="fa-solid fa-angle-down"></i></a>
                         <ul class="home-dropped list-unstyled">
                             <li><a href="#">Home V1</a></li>
                             <li><a href="index.html">Home V2</a></li>
@@ -124,7 +125,7 @@
             </div>
             <div class="inputbox">
                 <input type="text" placeholder="Search"><i class="fa-solid fa-magnifying-glass"></i>
-                <i class="fa-solid fa-cart-shopping"></i>
+                <i style="color: orange;" class="fa-solid fa-cart-shopping"></i>
             </div>
             <div class="line"></div>
             <div class="rightside d-flex">
@@ -133,71 +134,53 @@
         </div>
     </header>
     <!-- header end  -->
-    <section id="experience">
+    <section id="cook">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div style="float: right;" class="box">
-                        <h6>START TO NEW JOURNEY</h6>
-                        <h1>Experience a learning<br>platform that take you<br>next level</h1>
-                        <p>World-class training and development programs<br>developed by top teachers</p>
-                        <input type="text" placeholder="Your email address">
-                        <span>Subscribe</span>
-                        <p style="padding-top: 20px;">No credit card required. By <a href="#">clicking ‘Start a Free
-                                Trial’</a> </p>
-                        <img class="img-fluid" src="images/book.png" alt="">
+                    <div class="box rightboxv5">
+                        <img class="img-fluid" src="images/textimg.png" alt="">
+                        <h1>Be professional<br>cook like a boos</h1>
+                        <p>World-class cooking programs developed by chef<br>from the world best cook</p>
+                        <a href="#">Explore Courses</a>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="box">
-                        <img class="img-fluid" src="images/QUR904.png" alt="">
+                        <img class="img-fluid" src="images/chef.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- experience end  -->
-    <section id="count">
+    <section id="chiken">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-12 col-sm-12">
-                    <div class="box">
-                        <img src="images/icon1.png" alt="">
-                        <span data-val="360+" class="num">0</span>
-                        <span class="plus">+</span>
-                        <p>Hours of Learning</p>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div style="background-color: #ECE7E1;" class="box box1v5">
+                        <h6>20% Off</h6>
+                        <h2>Chiken masala<br>with curry</h2>
+                        <a href="#">Get Starded Now</a>
+                        <img src="images/chicken.png" alt="">
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-12 col-sm-12">
-                    <div class="box">
-                        <img src="images/icon2.png" alt="">
-                        <span data-val="1200+" class="num">0</span>
-                        <span class="plus">+</span>
-                        <p>Enrolled Learners</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-12 col-sm-12">
-                    <div class="box">
-                        <img src="images/icon3.png" alt="">
-                        <span data-val="250+" class="num">0</span>
-                        <span class="plus">+</span>
-                        <p>Online Instructors</p>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="box box2v5">
+                        <h6>40% Off</h6>
+                        <h2>Winter vegetable<br>soup with butter</h2>
+                        <a href="#">Get Starded Now</a>
+                        <img src="images/veggies.png" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- count end  -->
-    <hr>
-    <section id="toprated">
+    <!-- chiken end  -->
+    <section id="popular">
         <div class="text-center">
-            <p>Top Rated Learning Tutorial</p>
-            <p class="click allclick" style="color: #3BBCA7;">ALL</p>
-            <p class="click cookingclick">COOKING</p>
-            <p class="click financeclick">FINANCE</p>
-            <p class="click lifestyleclick">LIFESTYLE</p>
+            <span class="fc">FEATURED COURSES</span>
+            <h2 class="epc">Explore Popular Courses</h2>
         </div>
-
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-12 box1">
@@ -249,242 +232,159 @@
                     <i class="fa-solid fa-star"></i>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-12 box4">
-                    <img class="img-fluid" src="images/box4.jpeg" alt="">
-                    <a href="#">Lifestyle</a><span class="span1">Free</span>
-                    <h6>Drawing and Painting<br>Course for Children</h6>
-                    <img class="human" src="images/human1.jpeg" alt=""> <span class="span2">Tim Burton</span>
+                    <img class="img-fluid" src="images/box7.jpeg" alt="">
+                    <a href="#">Cooking</a><span class="span1">Free</span>
+                    <h6>Online Healthy Cooking<br>Course</h6>
+                    <img class="human" src="images/human3.jpeg" alt=""> <span class="span2">Fred Hyman</span>
                     <hr>
                     <i class="fa-regular fa-user"></i>
-                    <span class="span3">35</span>
+                    <span class="span3">11</span>
                     <i class="fa-solid fa-book"></i>
-                    <span style="margin-right: 30px;" class="span3">14</span>
+                    <span style="margin-right: 30px;" class="span3">12</span>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
+                    <i style="color: grey;" class="fa-solid fa-star"></i>
                 </div>
             </div>
         </div>
-        <div class="d-flex textbox">
-            <img class="img-fluid" src="images/sign1.png" alt="">
-            <h6>23,000+</h6>
-            <span>more skillful courses you can explore</span>
-            <img class="img-fluid" src="images/sign2.png" alt="">
+    </section>
+    <!-- popular end  -->
+    <section id="snacks">
+        <div class="text-center">
+            <span>TOP CATEGORIES</span>
+            <h2>Choose from top categories</h2>
         </div>
-        <div class="d-flex justify-content-center">
-            <button>Explore All Courses</button>
-        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img class="img-fluid" src="images/b1.jpeg" alt="">
+                        <p>Sea Food</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img class="img-fluid" src="images/b2.jpeg" alt="">
+                        <p>Snacks</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img class="img-fluid" src="images/b3.jpeg" alt="">
+                        <p>Ice Cream</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="box">
+                        <img class="img-fluid" src="images/b4.jpeg" alt="">
+                        <p>Rice & Mutton</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-    <!-- top rated end  -->
-
-    <section id="enroll">
+    <!-- snacks end  -->
+    <section id="hosue">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="box">
+                        <img class="img-fluid" src="images/chef2.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="box text">
+                        <h2>Helping you to be chef at your<br>own hosue</h2>
+                        <p>World-class cooking programs developed by chef from the<br>world best cook Our farm<br>is a
+                            second-generation organic farm that was our parents,<br>Mark & Renée Elliott’s dream to
+                            offer the best and healthiest.</p>
+                        <i class="fa-solid fa-check"></i>
+                        <span>Get access to 4,000+ of our top courses</span>
+                        <br>
+                        <i class="fa-solid fa-check"></i>
+                        <span>Popular topics to learn now</span>
+                        <br>
+                        <i class="fa-solid fa-check"></i>
+                        <span>Find the right instructor for you</span>
+                        <br>
+                        <a href="#">Know About Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- hosue end  -->
+    <section id="connect">
+        <div class="background">
+            <div class="sliderv5">
+                <swiper-container class="mySwiper" pagination="true">
+                    <swiper-slide><img class="img-fluid" src="images/sliderimg1.jpeg" alt=""></swiper-slide>
+                    <swiper-slide><img class="img-fluid" src="images/sliderimg2.jpeg" alt=""></swiper-slide>
+                    <swiper-slide><img class="img-fluid" src="images/sliderimg3.jpeg" alt=""></swiper-slide>
+                </swiper-container>
+            </div>
+        </div>
+    </section>
+    <!-- connect end  -->
+    <section id="around">
         <div class="text-center">
-            <h1>Top categories you can enroll now</h1>
+            <span class="ln">LATEST NEWS</span>
+            <h3>Whats going on around you</h3>
         </div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="box">
-                        <img class="img-fluid" src="images/boximg1.jpeg" alt="">
-                        <div class="mainbox d-flex">
-                            <div class="textbox">
-                                <h5>Web Design</h5>
-                                <p>10 Courses</p>
-                            </div>
-                            <div class="iconbox">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="box">
-                        <img class="img-fluid" src="images/boximg2.jpeg" alt="">
-                        <div class="mainbox d-flex">
-                            <div class="textbox">
-                                <h5>UX/UI Design</h5>
-                                <p>15 Courses</p>
-                            </div>
-                            <div class="iconbox">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="box">
-                        <img class="img-fluid" src="images/boximg3.jpeg" alt="">
-                        <div class="mainbox d-flex">
-                            <div class="textbox">
-                                <h5>Graphic Design</h5>
-                                <p>18 Courses</p>
-                            </div>
-                            <div class="iconbox">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="box">
-                        <img class="img-fluid" src="images/boximg4.jpeg" alt="">
-                        <div class="mainbox d-flex">
-                            <div class="textbox">
-                                <h5>Business</h5>
-                                <p>125 Courses</p>
-                            </div>
-                            <div class="iconbox">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="box">
-                        <img class="img-fluid" src="images/boximg5.jpeg" alt="">
-                        <div class="mainbox d-flex">
-                            <div class="textbox">
-                                <h5>Technology</h5>
-                                <p>25 Courses</p>
-                            </div>
-                            <div class="iconbox">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="box">
-                        <img class="img-fluid" src="images/boximg6.jpeg" alt="">
-                        <div class="mainbox d-flex">
-                            <div class="textbox">
-                                <h5>Cooking/Recipe</h5>
-                                <p>24 Courses</p>
-                            </div>
-                            <div class="iconbox">
-                                <i class="fa-solid fa-arrow-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- enroll end  -->
-    <section id="feature">
-        <div class="text-center">
-            <h1>Featured topics by category</h1>
-            <div id="slider">
-                <div class="wrapper">
-                    <i id="left" class="fa-solid fa-angle-left"></i>
-                    <div class="carousel">
-                        <img src="images/DataScience.png" alt="img" draggable="false">
-                        <img src="images/Business.png" alt="img" draggable="false">
-                        <img src="images/Food&Recipe.png" alt="img" draggable="false">
-                        <img src="images/Engineering.png" alt="img" draggable="false">
-                        <img src="images/Technology.png" alt="img" draggable="false">
-                    </div>
-                    <i id="right" class="fa-solid fa-angle-right"></i>
-                </div>
-            </div>
-            <h2>We collaborate with <span>200+</span> Leading universities & companies</h2>
-            <img class="img-fluid" src="images/brands.png" alt="">
-            <div class="container designer">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12 col-sm-12">
-                        <div class="box">
-                            <img src="images/JamesSmith.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12 col-sm-12">
-                        <div class="box">
-                            <p>World-class training and development programs<br>developed by top teachers Connect Fellow
-                                to the<br>tools you love to make your meeting,<br>management, and productivity workflows
-                                even<br>better.<br><span class="span1">James Smith</span><br><span class="span2">UX/UI
-                                    Designer</span></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- feature end  -->
-    <section id="news">
-        <div class="text-center">
-            <h1>Get from our news & article</h1>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <div class="box">
-                        <img class="img-fluid" src="images/firstbox.jpeg" alt="">
+                        <img class="img-fluid" src="images/b1v5.jpeg" alt="">
                         <i class="fa-regular fa-user"></i>
                         <span>Fred Hyman</span>
                         <i class="fa-regular fa-message"></i>
                         <span>2 Comments</span>
                         <h4>Thoughts for Educators On<br>School Reopening</h4>
-                        <p>In order to write the perfect blog post, you<br>need to break your content up
-                            into<br>paragraphs....</p>
-                        <button>Lifestyle</button>
+                        <button>Health</button>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="box">
-                        <img class="img-fluid" src="images/secondbox.jpeg" alt="">
+                        <img class="img-fluid" src="images/b2v5.jpeg" alt="">
                         <i class="fa-regular fa-user"></i>
                         <span>Fred Hyman</span>
                         <i class="fa-regular fa-message"></i>
                         <span>2 Comments</span>
                         <h4>Information About Teacher<br>Certification</h4>
-                        <p>In order to write the perfect blog post, you<br>need to break your content up
-                            into<br>paragraphs....</p>
-                        <button>Lifestyle</button>
+                        <button>Health</button>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="box">
-                        <img class="img-fluid" src="images/thirdbox.jpeg" alt="">
+                        <img class="img-fluid" src="images/b3v5.jpeg" alt="">
                         <i class="fa-regular fa-user"></i>
                         <span>Fred Hyman</span>
                         <i class="fa-regular fa-message"></i>
                         <span>2 Comments</span>
                         <h4>We are changing the way the world learns</h4>
-                        <p>In order to write the perfect blog post, you<br>need to break your content up
-                            into<br>paragraphs....</p>
-                        <button>Learning</button>
+                        <button>Health</button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- news end  -->
-    <section id="business">
-        <div class="container mainbox">
-            <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="box textbox">
-                        <h1>Start for Business</h1>
-                        <p>Get unlimited access to 5,500+ of our top for your<br>team</p>
-                        <a href="#">Get For Business</a>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <div class="box imgbox">
-                        <img src="images/boy.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
+    <!-- around end  -->
+    <section id="salad">
+        <div class="text-center box">
+        <img class="img-fluid" src="images/veggieman.png" alt="">
+        <br>
+        <a href="#">Get Starded Now</a>
+    </div>
     </section>
-    <!-- business end  -->
-    <footer id="footer">
+    <footer id="footerv5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-12">
                     <div class="box">
-                        <img src="images/2x_logo-white.png" alt="">
+                        <img src="images/orangelogo.png" alt="">
                         <p>We support programs that<br>create advancement for<br>people</p>
                         <i class="fa-brands fa-facebook"></i>
                         <i class="fa-brands fa-twitter"></i>
@@ -525,7 +425,7 @@
             </div>
         </div>
         <hr style="width: 85%; margin: 30px auto;">
-        <p style="text-align: center;">© Copyright 2023 Pixelcurve All rights reserved.</p>
+        <p style="text-align: center;color: gray;">© Copyright 2023 Pixelcurve All rights reserved.</p>
     </footer>
     <!-- footer end  -->
 </body>
